@@ -1,0 +1,375 @@
+{
+  "source" : "factory",
+  "details" : "The Square Root module outputs the positive square root of its input value. It’s commonly used to convert power to amplitude, adjust scaling laws (such as equal-power panning), or apply non-linear compression to control signals. Input values are limited to epsilon.",
+  "identifier" : "E4D7DFDA-266F-4AA0-9B59-71B6C0B24CE1",
+  "overview" : "Computes the square root of the input value.",
+  "author" : "AudioBench",
+  "graph" : {
+    "detents" : [
+
+    ],
+    "ports" : [
+      {
+        "payload" : "scalar",
+        "ordinal" : 0,
+        "identifier" : "port.ZZVMMWHV",
+        "isTap" : false,
+        "id" : "459A3FBB-85AA-45C8-B408-E59972274B18",
+        "moduleID" : "C836E498-297F-4F97-82D0-95517D73E28B",
+        "label" : "In",
+        "scope" : "input"
+      },
+      {
+        "payload" : "scalar",
+        "ordinal" : 0,
+        "identifier" : "output",
+        "isTap" : false,
+        "id" : "D8AE3F96-F2C8-4C94-9F13-485FF9235656",
+        "moduleID" : "B53CD6FE-DBEF-4A34-B266-BFFC93588F32",
+        "label" : "Out",
+        "scope" : "output"
+      },
+      {
+        "payload" : "scalar",
+        "ordinal" : 0,
+        "identifier" : "output",
+        "isTap" : false,
+        "id" : "0DB90F48-5C03-441A-81A0-0A3BB82C0C2A",
+        "moduleID" : "AA4AB5C7-0C73-47A8-B2CF-0C1F5D089AC4",
+        "label" : "Out",
+        "scope" : "output"
+      },
+      {
+        "payload" : "scalar",
+        "ordinal" : 0,
+        "identifier" : "output",
+        "isTap" : false,
+        "id" : "4759F39D-E1DB-401D-946F-FF70F8AAF88D",
+        "moduleID" : "40BDAA24-E863-41FB-9331-F33808EEC82D",
+        "label" : "Out",
+        "scope" : "output"
+      },
+      {
+        "payload" : "scalar",
+        "connectedPortID" : "4759F39D-E1DB-401D-946F-FF70F8AAF88D",
+        "ordinal" : 0,
+        "identifier" : "port.SZQOWMFC",
+        "isTap" : false,
+        "id" : "C8782CD0-5157-4028-B780-8CF3978A7605",
+        "moduleID" : "3F236BE3-ACFC-4305-8B86-4D14BECFC005",
+        "label" : "Out",
+        "scope" : "input"
+      },
+      {
+        "payload" : "scalar",
+        "ordinal" : 0,
+        "identifier" : "port.SZQOWMFC",
+        "isTap" : false,
+        "id" : "66C46808-1639-4193-92EC-37782431D9C8",
+        "moduleID" : "3F236BE3-ACFC-4305-8B86-4D14BECFC005",
+        "label" : "Out",
+        "scope" : "output"
+      },
+      {
+        "payload" : "scalar",
+        "connectedPortID" : "B3F884D4-842B-4A07-8909-3442B306B845",
+        "ordinal" : 0,
+        "identifier" : "input-1",
+        "isTap" : false,
+        "id" : "4ABC890F-18A2-4168-B3BA-8704590AE5FF",
+        "moduleID" : "A862C0EF-5495-447F-85CD-AF253DA56275",
+        "label" : "I1",
+        "scope" : "input"
+      },
+      {
+        "payload" : "scalar",
+        "connectedPortID" : "C05768CE-829F-4773-AB57-64EABC3E9725",
+        "ordinal" : 0,
+        "identifier" : "input",
+        "isTap" : false,
+        "id" : "11D82CBD-5E7D-4187-9A23-3ECCCE8E2A2D",
+        "moduleID" : "40BDAA24-E863-41FB-9331-F33808EEC82D",
+        "label" : "In",
+        "scope" : "input"
+      },
+      {
+        "payload" : "scalar",
+        "ordinal" : 0,
+        "identifier" : "port.ZZVMMWHV",
+        "isTap" : false,
+        "id" : "F29132A2-3373-4546-8EC2-D46E6D8A5B54",
+        "moduleID" : "C836E498-297F-4F97-82D0-95517D73E28B",
+        "label" : "In",
+        "scope" : "output"
+      },
+      {
+        "payload" : "scalar",
+        "connectedPortID" : "F29132A2-3373-4546-8EC2-D46E6D8A5B54",
+        "ordinal" : 0,
+        "identifier" : "input",
+        "isTap" : false,
+        "id" : "5936AA1E-92F9-486B-AEA2-AAEBEBC06937",
+        "moduleID" : "AA4AB5C7-0C73-47A8-B2CF-0C1F5D089AC4",
+        "label" : "In",
+        "scope" : "input"
+      },
+      {
+        "payload" : "scalar",
+        "connectedPortID" : "0DB90F48-5C03-441A-81A0-0A3BB82C0C2A",
+        "ordinal" : 0,
+        "identifier" : "input",
+        "isTap" : false,
+        "id" : "28F79A0D-C9A8-4662-B461-1254E3B4D4E3",
+        "moduleID" : "B53CD6FE-DBEF-4A34-B266-BFFC93588F32",
+        "label" : "In",
+        "scope" : "input"
+      },
+      {
+        "payload" : "scalar",
+        "ordinal" : 0,
+        "identifier" : "output",
+        "isTap" : false,
+        "id" : "B3F884D4-842B-4A07-8909-3442B306B845",
+        "moduleID" : "80E031D9-4616-437A-AD5C-140ADD1F05C9",
+        "label" : "Out",
+        "scope" : "output"
+      },
+      {
+        "payload" : "scalar",
+        "connectedPortID" : "D8AE3F96-F2C8-4C94-9F13-485FF9235656",
+        "ordinal" : 1000,
+        "identifier" : "input-2",
+        "isTap" : false,
+        "id" : "13C5A4A7-3773-4EEB-A0EF-05301098AAF5",
+        "moduleID" : "A862C0EF-5495-447F-85CD-AF253DA56275",
+        "label" : "I2",
+        "scope" : "input"
+      },
+      {
+        "payload" : "scalar",
+        "ordinal" : 0,
+        "identifier" : "output",
+        "isTap" : false,
+        "id" : "C05768CE-829F-4773-AB57-64EABC3E9725",
+        "moduleID" : "A862C0EF-5495-447F-85CD-AF253DA56275",
+        "label" : "Out",
+        "scope" : "output"
+      }
+    ],
+    "modules" : [
+      {
+        "multiply" : {
+          "_0" : {
+            "module" : {
+              "containerID" : "F3897CCF-614A-4936-87F5-18BF6A897429",
+              "benchInteractivity" : "normal",
+              "identifier" : "module.GNVPCDKQ",
+              "name" : "Multiply",
+              "benchPosition" : [
+                -3.9382343061587903,
+                9.029462871139998
+              ],
+              "id" : "A862C0EF-5495-447F-85CD-AF253DA56275",
+              "benchOrdinal" : 7000,
+              "notes" : "",
+              "colorIndex" : 27,
+              "parameters" : {
+
+              }
+            }
+          }
+        }
+      },
+      {
+        "log" : {
+          "_0" : {
+            "module" : {
+              "containerID" : "F3897CCF-614A-4936-87F5-18BF6A897429",
+              "benchInteractivity" : "normal",
+              "identifier" : "module.ENJQSETP",
+              "name" : "ln(x)",
+              "benchPosition" : [
+                -108.59839055615879,
+                45.31461912114
+              ],
+              "id" : "B53CD6FE-DBEF-4A34-B266-BFFC93588F32",
+              "benchOrdinal" : 5000,
+              "notes" : "",
+              "colorIndex" : 27,
+              "parameters" : {
+
+              }
+            }
+          }
+        }
+      },
+      {
+        "containerPorts" : {
+          "_0" : {
+            "module" : {
+              "containerID" : "F3897CCF-614A-4936-87F5-18BF6A897429",
+              "benchInteractivity" : "normal",
+              "identifier" : "container.ports.output",
+              "name" : "Outputs",
+              "benchPosition" : [
+                184.53125,
+                7.74609375
+              ],
+              "id" : "3F236BE3-ACFC-4305-8B86-4D14BECFC005",
+              "benchOrdinal" : 0,
+              "notes" : "",
+              "colorIndex" : 29,
+              "parameters" : {
+
+              }
+            },
+            "scope" : "output"
+          }
+        }
+      },
+      {
+        "exp" : {
+          "_0" : {
+            "module" : {
+              "containerID" : "F3897CCF-614A-4936-87F5-18BF6A897429",
+              "benchInteractivity" : "normal",
+              "identifier" : "module.JSCGVBVV",
+              "name" : "e^in",
+              "benchPosition" : [
+                93.93285944384121,
+                8.974775371139998
+              ],
+              "id" : "40BDAA24-E863-41FB-9331-F33808EEC82D",
+              "benchOrdinal" : 6000,
+              "notes" : "",
+              "colorIndex" : 27,
+              "parameters" : {
+
+              }
+            }
+          }
+        }
+      },
+      {
+        "constant" : {
+          "_0" : {
+            "source" : "custom",
+            "value" : 0.5,
+            "module" : {
+              "containerID" : "F3897CCF-614A-4936-87F5-18BF6A897429",
+              "benchInteractivity" : "normal",
+              "identifier" : "module.TBDNQTGZ",
+              "name" : "K",
+              "benchPosition" : [
+                -100.78515625,
+                -23.0546875
+              ],
+              "id" : "80E031D9-4616-437A-AD5C-140ADD1F05C9",
+              "benchOrdinal" : 3000,
+              "notes" : "",
+              "colorIndex" : 27,
+              "parameters" : {
+
+              }
+            }
+          }
+        }
+      },
+      {
+        "containerPorts" : {
+          "_0" : {
+            "module" : {
+              "containerID" : "F3897CCF-614A-4936-87F5-18BF6A897429",
+              "benchInteractivity" : "normal",
+              "identifier" : "container.ports.input",
+              "name" : "Inputs",
+              "benchPosition" : [
+                -295.50390625,
+                44.8671875
+              ],
+              "id" : "C836E498-297F-4F97-82D0-95517D73E28B",
+              "benchOrdinal" : 1000,
+              "notes" : "",
+              "colorIndex" : 29,
+              "parameters" : {
+
+              }
+            },
+            "scope" : "input"
+          }
+        }
+      },
+      {
+        "container" : {
+          "_0" : {
+            "isExpanded" : false,
+            "module" : {
+              "containerID" : "DEADBEEF-FEED-FACE-DEED-CAFEBABEFACE",
+              "benchInteractivity" : "normal",
+              "identifier" : "module.WFKSRMLG",
+              "name" : "Square Root",
+              "benchPosition" : [
+                -148.34765625,
+                -123.265625
+              ],
+              "id" : "F3897CCF-614A-4936-87F5-18BF6A897429",
+              "benchOrdinal" : 0,
+              "notes" : "",
+              "colorIndex" : 27,
+              "parameters" : {
+
+              }
+            },
+            "benchOffset" : [
+              -103.20050048828125,
+              -52.0003662109375
+            ]
+          }
+        }
+      },
+      {
+        "epsilon" : {
+          "_0" : {
+            "module" : {
+              "containerID" : "F3897CCF-614A-4936-87F5-18BF6A897429",
+              "benchInteractivity" : "normal",
+              "identifier" : "module.GRWHGSXY",
+              "name" : "Epsilon",
+              "benchPosition" : [
+                -201.52215576171875,
+                44.0550537109375
+              ],
+              "id" : "AA4AB5C7-0C73-47A8-B2CF-0C1F5D089AC4",
+              "benchOrdinal" : 8000,
+              "notes" : "",
+              "colorIndex" : 27,
+              "parameters" : {
+
+              }
+            }
+          }
+        }
+      }
+    ],
+    "rootModuleIDs" : [
+      "F3897CCF-614A-4936-87F5-18BF6A897429"
+    ]
+  },
+  "title" : "Square Root",
+  "version" : "1.0.0",
+  "isDeleted" : false,
+  "keywords" : [
+      "sqrt",
+      "math",
+      "power",
+      "amplitude",
+      "nonlinear",
+      "scale",
+      "conversion",
+      "transform",
+      "gain",
+      "root",
+      "magnitude"
+  ],
+  "category" : 3
+}

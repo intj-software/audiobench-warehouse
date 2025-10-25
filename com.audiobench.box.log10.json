@@ -1,0 +1,277 @@
+{
+  "identifier" : "3A75CD11-E7D1-4CF8-8F3D-085E27476B86",
+  "version" : "1.0.0",
+  "category" : 3,
+  "keywords" : [
+
+  ],
+  "overview" : "out = log10(in)",
+  "source" : "factory",
+  "isDeleted" : false,
+  "author" : "AudioBench",
+  "title" : "Log10",
+  "graph" : {
+    "ports" : [
+      {
+        "identifier" : "input",
+        "scope" : "input",
+        "payload" : "scalar",
+        "moduleID" : "33218647-F3B2-4A7F-9679-5DB607C288C9",
+        "connectedPortID" : "36A87F21-73F1-4643-A4ED-9927459CF133",
+        "ordinal" : 0,
+        "id" : "2A3AE47E-0B8C-4D2B-B523-52F0A77A97AD",
+        "isTap" : false,
+        "label" : "In"
+      },
+      {
+        "identifier" : "input-2",
+        "scope" : "input",
+        "payload" : "scalar",
+        "moduleID" : "357BAA29-67C3-436B-B151-13D91BDDB186",
+        "connectedPortID" : "D860EB2C-9F04-4676-86D2-E86575109E73",
+        "ordinal" : 1000,
+        "id" : "46D0CC8D-C330-4D2C-95A6-BAD7350B1658",
+        "isTap" : false,
+        "label" : "I2"
+      },
+      {
+        "identifier" : "port.EEKYRPDJ",
+        "scope" : "output",
+        "payload" : "scalar",
+        "moduleID" : "2144638B-14B0-427F-8C00-731F5DFB5941",
+        "ordinal" : 0,
+        "id" : "CAC75F84-3754-4A15-BC17-7765469A60D5",
+        "isTap" : false,
+        "label" : "Out"
+      },
+      {
+        "identifier" : "output",
+        "scope" : "output",
+        "payload" : "scalar",
+        "moduleID" : "357BAA29-67C3-436B-B151-13D91BDDB186",
+        "ordinal" : 0,
+        "id" : "1D40618D-7457-4B6B-A4B8-7941EA1AB95D",
+        "isTap" : false,
+        "label" : "Out"
+      },
+      {
+        "identifier" : "port.EEKYRPDJ",
+        "scope" : "input",
+        "payload" : "scalar",
+        "moduleID" : "2144638B-14B0-427F-8C00-731F5DFB5941",
+        "connectedPortID" : "1D40618D-7457-4B6B-A4B8-7941EA1AB95D",
+        "ordinal" : 0,
+        "id" : "586B9D2A-F8ED-45BE-AAD0-07AF54D2BA69",
+        "isTap" : false,
+        "label" : "Out"
+      },
+      {
+        "identifier" : "port.EMDDPDPL",
+        "scope" : "output",
+        "payload" : "scalar",
+        "moduleID" : "29F47EBA-65BA-4E28-84B3-7E5CBEDE21C5",
+        "ordinal" : 0,
+        "id" : "36A87F21-73F1-4643-A4ED-9927459CF133",
+        "isTap" : false,
+        "label" : "X"
+      },
+      {
+        "identifier" : "output",
+        "scope" : "output",
+        "payload" : "scalar",
+        "moduleID" : "33218647-F3B2-4A7F-9679-5DB607C288C9",
+        "ordinal" : 0,
+        "id" : "F0509D21-7695-4388-A9FC-9DA385A4E9E0",
+        "isTap" : false,
+        "label" : "Out"
+      },
+      {
+        "identifier" : "port.EMDDPDPL",
+        "scope" : "input",
+        "payload" : "scalar",
+        "moduleID" : "29F47EBA-65BA-4E28-84B3-7E5CBEDE21C5",
+        "connectedPortID" : "7EDAC4B7-0BA3-453F-92C9-B5CCEE5200F9",
+        "ordinal" : 0,
+        "id" : "0BE158AC-FDDF-4565-B94A-0F9E92CD93DF",
+        "isTap" : false,
+        "label" : "X"
+      },
+      {
+        "identifier" : "input-1",
+        "scope" : "input",
+        "payload" : "scalar",
+        "moduleID" : "357BAA29-67C3-436B-B151-13D91BDDB186",
+        "connectedPortID" : "F0509D21-7695-4388-A9FC-9DA385A4E9E0",
+        "ordinal" : 0,
+        "id" : "51CAAD02-9E10-4F36-A1DB-36958631D456",
+        "isTap" : false,
+        "label" : "I1"
+      },
+      {
+        "identifier" : "output",
+        "scope" : "output",
+        "payload" : "scalar",
+        "moduleID" : "72B9A06C-BF33-4526-8712-AF839AA1929D",
+        "ordinal" : 0,
+        "id" : "D860EB2C-9F04-4676-86D2-E86575109E73",
+        "isTap" : false,
+        "label" : "Out"
+      }
+    ],
+    "detents" : [
+
+    ],
+    "modules" : [
+      {
+        "constant" : {
+          "_0" : {
+            "module" : {
+              "benchOrdinal" : 13000,
+              "name" : "1 \/ ln(10)",
+              "colorIndex" : 27,
+              "benchPosition" : [
+                -29.5625,
+                29.4375
+              ],
+              "identifier" : "module.GIBMPRKF",
+              "benchInteractivity" : "normal",
+              "notes" : "Equivalent to 1\/ln(10)",
+              "parameters" : {
+
+              },
+              "containerID" : "00BCE172-AB1D-48A7-BF58-CA00DECDDFEB",
+              "id" : "72B9A06C-BF33-4526-8712-AF839AA1929D"
+            },
+            "value" : 0.43429448
+          }
+        }
+      },
+      {
+        "containerPorts" : {
+          "_0" : {
+            "scope" : "output",
+            "module" : {
+              "identifier" : "container.ports.output",
+              "benchInteractivity" : "normal",
+              "containerID" : "00BCE172-AB1D-48A7-BF58-CA00DECDDFEB",
+              "colorIndex" : 29,
+              "parameters" : {
+
+              },
+              "benchOrdinal" : 0,
+              "notes" : "",
+              "id" : "2144638B-14B0-427F-8C00-731F5DFB5941",
+              "benchPosition" : [
+                252.369140625,
+                -18.64453125
+              ],
+              "name" : "Outputs"
+            }
+          }
+        }
+      },
+      {
+        "multiply" : {
+          "_0" : {
+            "module" : {
+              "identifier" : "module.DZYAAGWV",
+              "benchInteractivity" : "normal",
+              "containerID" : "00BCE172-AB1D-48A7-BF58-CA00DECDDFEB",
+              "colorIndex" : 27,
+              "parameters" : {
+
+              },
+              "benchOrdinal" : 11000,
+              "notes" : "",
+              "id" : "357BAA29-67C3-436B-B151-13D91BDDB186",
+              "name" : "Multiply",
+              "benchPosition" : [
+                115.560546875,
+                -19.578125
+              ]
+            }
+          }
+        }
+      },
+      {
+        "containerPorts" : {
+          "_0" : {
+            "module" : {
+              "identifier" : "container.ports.input",
+              "benchInteractivity" : "normal",
+              "containerID" : "00BCE172-AB1D-48A7-BF58-CA00DECDDFEB",
+              "colorIndex" : 29,
+              "parameters" : {
+
+              },
+              "benchOrdinal" : 1000,
+              "notes" : "",
+              "id" : "29F47EBA-65BA-4E28-84B3-7E5CBEDE21C5",
+              "name" : "Inputs",
+              "benchPosition" : [
+                -163.763671875,
+                -33.515625
+              ]
+            },
+            "scope" : "input"
+          }
+        }
+      },
+      {
+        "container" : {
+          "_0" : {
+            "isExpanded" : false,
+            "module" : {
+              "identifier" : "module.OMPHBFON",
+              "benchInteractivity" : "normal",
+              "containerID" : "DEADBEEF-FEED-FACE-DEED-CAFEBABEFACE",
+              "colorIndex" : 27,
+              "parameters" : {
+
+              },
+              "benchOrdinal" : 11000,
+              "notes" : "out = log10(in)",
+              "id" : "00BCE172-AB1D-48A7-BF58-CA00DECDDFEB",
+              "name" : "Log10",
+              "benchPosition" : [
+                -149.15887451171875,
+                132.39752197265625
+              ]
+            },
+            "benchOffset" : [
+              -99.60028076171875,
+              -36.000244140625
+            ]
+          }
+        }
+      },
+      {
+        "log" : {
+          "_0" : {
+            "module" : {
+              "identifier" : "module.GRAKYXOB",
+              "benchInteractivity" : "normal",
+              "containerID" : "00BCE172-AB1D-48A7-BF58-CA00DECDDFEB",
+              "colorIndex" : 27,
+              "parameters" : {
+
+              },
+              "benchOrdinal" : 5000,
+              "notes" : "",
+              "id" : "33218647-F3B2-4A7F-9679-5DB607C288C9",
+              "name" : "ln(A)",
+              "benchPosition" : [
+                -14.513671875,
+                -35.58984375
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "rootModuleIDs" : [
+      "00BCE172-AB1D-48A7-BF58-CA00DECDDFEB"
+    ]
+  },
+  "details" : ""
+}

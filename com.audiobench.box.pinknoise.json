@@ -1,0 +1,626 @@
+{
+  "source" : "factory",
+  "isDeleted" : false,
+  "version" : "1.0.0",
+  "title" : "Pink Noise",
+  "identifier" : "com.audiobench.box.pinknoise",
+  "author" : "AudioBench",
+  "category" : 1,
+  "graph" : {
+    "rootModuleID" : "3810B237-04C9-4A3B-97E5-8C53F3C317D7",
+    "detents" : [
+
+    ],
+    "modules" : [
+      {
+        "containerPorts" : {
+          "_0" : {
+            "module" : {
+              "benchInteractivity" : "normal",
+              "benchPosition" : [
+                569.1220703125,
+                0
+              ],
+              "parameters" : {
+
+              },
+              "benchOrdinal" : 0,
+              "notes" : "",
+              "identifier" : "container.ports.output",
+              "containerID" : "3810B237-04C9-4A3B-97E5-8C53F3C317D7",
+              "colorIndex" : 29,
+              "id" : "2D18ECC8-C0D6-4925-B358-2A374E8A6005",
+              "name" : "Outputs"
+            },
+            "scope" : "output"
+          }
+        }
+      },
+      {
+        "container" : {
+          "_0" : {
+            "module" : {
+              "benchInteractivity" : "normal",
+              "benchPosition" : [
+                -115.3076171875,
+                -59.4375
+              ],
+              "parameters" : {
+
+              },
+              "benchOrdinal" : 0,
+              "notes" : "Generates pink noise (-3dB\/oct slope) using Paul Kellett's three-stage filter design.",
+              "identifier" : "module.BJKSYLDO",
+              "containerID" : "DEADBEEF-FEED-FACE-DEED-CAFEBABEFACE",
+              "colorIndex" : 27,
+              "id" : "3810B237-04C9-4A3B-97E5-8C53F3C317D7",
+              "name" : "Pink Noise"
+            },
+            "benchOffset" : [
+              -39.8004150390625,
+              -9.400054931640625
+            ],
+            "isExpanded" : false
+          }
+        }
+      },
+      {
+        "mixer" : {
+          "_0" : {
+            "module" : {
+              "benchInteractivity" : "normal",
+              "benchPosition" : [
+                228.81039428710938,
+                -1.095703125
+              ],
+              "parameters" : {
+                "mute" : 0
+              },
+              "benchOrdinal" : 12000,
+              "notes" : "",
+              "identifier" : "module.NZYXDMGE",
+              "containerID" : "3810B237-04C9-4A3B-97E5-8C53F3C317D7",
+              "colorIndex" : 27,
+              "id" : "555445F8-9D78-433C-9F57-139179CDC48B",
+              "name" : "Mixer"
+            }
+          }
+        }
+      },
+      {
+        "gain" : {
+          "_0" : {
+            "module" : {
+              "benchInteractivity" : "normal",
+              "benchPosition" : [
+                337.3720703125,
+                -1.095703125
+              ],
+              "parameters" : {
+                "gain" : -14.7,
+                "bypass" : 0,
+                "mute" : 0
+              },
+              "benchOrdinal" : 2000,
+              "notes" : "",
+              "identifier" : "module.LOETKVHC",
+              "containerID" : "3810B237-04C9-4A3B-97E5-8C53F3C317D7",
+              "colorIndex" : 27,
+              "id" : "CEBFB0FB-D83D-4DCA-BFC1-B3C32DC6FF83",
+              "name" : "Gain"
+            }
+          }
+        }
+      },
+      {
+        "iirCoefficients" : {
+          "_0" : {
+            "module" : {
+              "benchInteractivity" : "normal",
+              "benchPosition" : [
+                -80.5615234375,
+                -1.095703125
+              ],
+              "parameters" : {
+                "b2" : 0,
+                "b0" : 0.2965164,
+                "b1" : 0,
+                "a2" : 0,
+                "a1" : -0.963
+              },
+              "benchOrdinal" : 7000,
+              "notes" : "",
+              "identifier" : "module.FMOHEPQE",
+              "containerID" : "3810B237-04C9-4A3B-97E5-8C53F3C317D7",
+              "colorIndex" : 27,
+              "id" : "D3A6743A-11F2-45CE-B46E-B42B5458BD32",
+              "name" : "Coefficients"
+            }
+          }
+        }
+      },
+      {
+        "iirFilter" : {
+          "_0" : {
+            "module" : {
+              "benchInteractivity" : "normal",
+              "benchPosition" : [
+                70.8310546875,
+                -106.796875
+              ],
+              "parameters" : {
+                "bypass" : 0,
+                "mute" : 0
+              },
+              "benchOrdinal" : 5000,
+              "notes" : "",
+              "identifier" : "module.DEIHUDUH",
+              "containerID" : "3810B237-04C9-4A3B-97E5-8C53F3C317D7",
+              "colorIndex" : 27,
+              "id" : "016DB736-1529-4686-B4C9-6C75E8C1A91F",
+              "name" : "Filter"
+            }
+          }
+        }
+      },
+      {
+        "iirFilter" : {
+          "_0" : {
+            "module" : {
+              "benchInteractivity" : "normal",
+              "benchPosition" : [
+                70.8310546875,
+                -1.095703125
+              ],
+              "parameters" : {
+                "mute" : 0,
+                "bypass" : 0
+              },
+              "benchOrdinal" : 8000,
+              "notes" : "",
+              "identifier" : "module.JOMXPTZL",
+              "containerID" : "3810B237-04C9-4A3B-97E5-8C53F3C317D7",
+              "colorIndex" : 27,
+              "id" : "6C03D425-05EA-497B-B32E-29B82DABEE84",
+              "name" : "Filter"
+            }
+          }
+        }
+      },
+      {
+        "containerPorts" : {
+          "_0" : {
+            "module" : {
+              "benchInteractivity" : "normal",
+              "benchPosition" : [
+                -569.1220703125,
+                0
+              ],
+              "parameters" : {
+
+              },
+              "benchOrdinal" : 0,
+              "notes" : "",
+              "identifier" : "container.ports.input",
+              "containerID" : "3810B237-04C9-4A3B-97E5-8C53F3C317D7",
+              "colorIndex" : 29,
+              "id" : "A4C2D948-22DB-4AB8-B67B-6C9F6D6AE648",
+              "name" : "Inputs"
+            },
+            "scope" : "input"
+          }
+        }
+      },
+      {
+        "noise" : {
+          "_0" : {
+            "module" : {
+              "benchInteractivity" : "normal",
+              "benchPosition" : [
+                -339.3720703125,
+                -1.095703125
+              ],
+              "parameters" : {
+                "mute" : 0
+              },
+              "benchOrdinal" : 3000,
+              "notes" : "",
+              "identifier" : "module.RPEFJMWD",
+              "containerID" : "3810B237-04C9-4A3B-97E5-8C53F3C317D7",
+              "colorIndex" : 27,
+              "id" : "DD31B018-5639-40AF-92FF-1E2F7257E1CB",
+              "name" : "Noise"
+            }
+          }
+        }
+      },
+      {
+        "iirCoefficients" : {
+          "_0" : {
+            "module" : {
+              "benchInteractivity" : "normal",
+              "benchPosition" : [
+                -80.5615234375,
+                -109.8515625
+              ],
+              "parameters" : {
+                "b2" : 0,
+                "b0" : 0.099046,
+                "a2" : 0,
+                "a1" : -0.99765,
+                "b1" : 0
+              },
+              "benchOrdinal" : 4000,
+              "notes" : "",
+              "identifier" : "module.PZFALJKH",
+              "containerID" : "3810B237-04C9-4A3B-97E5-8C53F3C317D7",
+              "colorIndex" : 27,
+              "id" : "C802C4B0-7945-4396-B14B-6BC3C383145E",
+              "name" : "Coefficients"
+            }
+          }
+        }
+      },
+      {
+        "iirCoefficients" : {
+          "_0" : {
+            "module" : {
+              "benchInteractivity" : "normal",
+              "benchPosition" : [
+                -80.5615234375,
+                103.4609375
+              ],
+              "parameters" : {
+                "b0" : 1.0526913,
+                "a2" : 0,
+                "b2" : 0,
+                "b1" : 0,
+                "a1" : -0.57
+              },
+              "benchOrdinal" : 10000,
+              "notes" : "",
+              "identifier" : "module.FXVLNDPB",
+              "containerID" : "3810B237-04C9-4A3B-97E5-8C53F3C317D7",
+              "colorIndex" : 27,
+              "id" : "180EF71A-34B3-48B3-8915-7455C697BC0E",
+              "name" : "Coefficients"
+            }
+          }
+        }
+      },
+      {
+        "splitter" : {
+          "_0" : {
+            "module" : {
+              "benchInteractivity" : "normal",
+              "benchPosition" : [
+                -238.46304321289062,
+                -1.095703125
+              ],
+              "parameters" : {
+                "mute" : 0
+              },
+              "benchOrdinal" : 11000,
+              "notes" : "",
+              "identifier" : "module.NOVFSFKR",
+              "containerID" : "3810B237-04C9-4A3B-97E5-8C53F3C317D7",
+              "colorIndex" : 27,
+              "id" : "1B023FDB-12CA-4065-8A02-0998C249C24D",
+              "name" : "Splitter"
+            }
+          }
+        }
+      },
+      {
+        "iirFilter" : {
+          "_0" : {
+            "module" : {
+              "benchInteractivity" : "normal",
+              "benchPosition" : [
+                70.8310546875,
+                106.546875
+              ],
+              "parameters" : {
+                "mute" : 0,
+                "bypass" : 0
+              },
+              "benchOrdinal" : 9000,
+              "notes" : "",
+              "identifier" : "module.VQMBNWCG",
+              "containerID" : "3810B237-04C9-4A3B-97E5-8C53F3C317D7",
+              "colorIndex" : 27,
+              "id" : "0D0E8D77-5A6E-4B8E-889E-3B65038BA893",
+              "name" : "Filter"
+            }
+          }
+        }
+      }
+    ],
+    "ports" : [
+      {
+        "ordinal" : 2000,
+        "scope" : "output",
+        "label" : "O3",
+        "identifier" : "output-3",
+        "payload" : "samples",
+        "isTap" : false,
+        "id" : "917E457C-4A0F-42A5-A8DB-AF258AD5DAE9",
+        "moduleID" : "1B023FDB-12CA-4065-8A02-0998C249C24D"
+      },
+      {
+        "ordinal" : 0,
+        "scope" : "output",
+        "label" : "Out",
+        "identifier" : "output",
+        "payload" : "samples",
+        "isTap" : false,
+        "id" : "E9F762E6-A5DD-43CC-B9CC-3137D878E7FC",
+        "moduleID" : "CEBFB0FB-D83D-4DCA-BFC1-B3C32DC6FF83"
+      },
+      {
+        "ordinal" : 0,
+        "scope" : "input",
+        "label" : "In",
+        "identifier" : "input",
+        "payload" : "samples",
+        "connectedPortID" : "3B17AFB0-556B-4D0F-825D-94B49366D086",
+        "isTap" : false,
+        "id" : "F7D34808-4F00-43AA-A7C3-26AF40A19558",
+        "moduleID" : "CEBFB0FB-D83D-4DCA-BFC1-B3C32DC6FF83"
+      },
+      {
+        "ordinal" : 0,
+        "scope" : "input",
+        "label" : "Out",
+        "identifier" : "port.VVWYCKKX",
+        "payload" : "samples",
+        "connectedPortID" : "E9F762E6-A5DD-43CC-B9CC-3137D878E7FC",
+        "isTap" : false,
+        "id" : "54126B3D-BA64-4CDF-83C7-FEE5FB423327",
+        "moduleID" : "2D18ECC8-C0D6-4925-B358-2A374E8A6005"
+      },
+      {
+        "ordinal" : 1000,
+        "scope" : "input",
+        "label" : "C",
+        "identifier" : "coefficients",
+        "payload" : "coefficientsIIR",
+        "connectedPortID" : "8F94B5DA-6275-4913-9B32-ACBEBF4FE52E",
+        "isTap" : false,
+        "id" : "74864E39-B245-4781-82A0-B70853114E82",
+        "moduleID" : "016DB736-1529-4686-B4C9-6C75E8C1A91F"
+      },
+      {
+        "ordinal" : 0,
+        "scope" : "output",
+        "label" : "Out",
+        "identifier" : "output",
+        "payload" : "coefficientsIIR",
+        "isTap" : false,
+        "id" : "11A8683A-787D-4B75-9457-CC7C2E6E2EE7",
+        "moduleID" : "D3A6743A-11F2-45CE-B46E-B42B5458BD32"
+      },
+      {
+        "ordinal" : 1000,
+        "scope" : "input",
+        "label" : "I2",
+        "identifier" : "input-2",
+        "payload" : "samples",
+        "connectedPortID" : "0B211348-3D49-4F4D-BC09-E8D5F040C300",
+        "isTap" : false,
+        "id" : "BA221B50-09B7-40CB-A0A2-91F17E9926C5",
+        "moduleID" : "555445F8-9D78-433C-9F57-139179CDC48B"
+      },
+      {
+        "ordinal" : 0,
+        "scope" : "output",
+        "label" : "Out",
+        "identifier" : "output",
+        "payload" : "samples",
+        "isTap" : false,
+        "id" : "0CF3630B-0170-4E64-8827-43B72E696465",
+        "moduleID" : "0D0E8D77-5A6E-4B8E-889E-3B65038BA893"
+      },
+      {
+        "ordinal" : 1000,
+        "scope" : "output",
+        "label" : "O2",
+        "identifier" : "output-2",
+        "payload" : "samples",
+        "isTap" : false,
+        "id" : "9ADC1EDF-C1BC-46C8-B443-0765946DFDA4",
+        "moduleID" : "1B023FDB-12CA-4065-8A02-0998C249C24D"
+      },
+      {
+        "ordinal" : 0,
+        "scope" : "input",
+        "label" : "In",
+        "identifier" : "input",
+        "payload" : "samples",
+        "connectedPortID" : "9ADC1EDF-C1BC-46C8-B443-0765946DFDA4",
+        "isTap" : false,
+        "id" : "539B9A39-F690-41C5-820C-47007B1CA65C",
+        "moduleID" : "6C03D425-05EA-497B-B32E-29B82DABEE84"
+      },
+      {
+        "ordinal" : 0,
+        "scope" : "output",
+        "label" : "Out",
+        "identifier" : "output",
+        "payload" : "samples",
+        "isTap" : false,
+        "id" : "2124FDFB-BED5-4303-9D07-24A6BAA6DBF2",
+        "moduleID" : "DD31B018-5639-40AF-92FF-1E2F7257E1CB"
+      },
+      {
+        "ordinal" : 0,
+        "scope" : "input",
+        "label" : "In",
+        "identifier" : "input",
+        "payload" : "samples",
+        "connectedPortID" : "917E457C-4A0F-42A5-A8DB-AF258AD5DAE9",
+        "isTap" : false,
+        "id" : "E52067F2-9EAC-4CDC-BD1C-B612721AF00F",
+        "moduleID" : "0D0E8D77-5A6E-4B8E-889E-3B65038BA893"
+      },
+      {
+        "ordinal" : 1000,
+        "scope" : "input",
+        "label" : "C",
+        "identifier" : "coefficients",
+        "payload" : "coefficientsIIR",
+        "connectedPortID" : "11A8683A-787D-4B75-9457-CC7C2E6E2EE7",
+        "isTap" : false,
+        "id" : "760F1EE2-97DC-4EAA-9B8E-0AFA9C01BC1B",
+        "moduleID" : "6C03D425-05EA-497B-B32E-29B82DABEE84"
+      },
+      {
+        "ordinal" : 0,
+        "scope" : "input",
+        "label" : "In",
+        "identifier" : "input",
+        "payload" : "samples",
+        "connectedPortID" : "2124FDFB-BED5-4303-9D07-24A6BAA6DBF2",
+        "isTap" : false,
+        "id" : "2CAD8F89-EADB-4B35-937A-01326415BED0",
+        "moduleID" : "1B023FDB-12CA-4065-8A02-0998C249C24D"
+      },
+      {
+        "ordinal" : 0,
+        "scope" : "output",
+        "label" : "Out",
+        "identifier" : "output",
+        "payload" : "coefficientsIIR",
+        "isTap" : false,
+        "id" : "A2563EBE-F6DC-471B-B6C2-25C4BB9B5466",
+        "moduleID" : "180EF71A-34B3-48B3-8915-7455C697BC0E"
+      },
+      {
+        "ordinal" : 0,
+        "scope" : "input",
+        "label" : "I1",
+        "identifier" : "input-1",
+        "payload" : "samples",
+        "connectedPortID" : "D62DEAA7-3A84-4A98-85C7-F4DFFCE8C521",
+        "isTap" : false,
+        "id" : "EF4FBE8B-30F4-4577-A8BB-20FBA67E4085",
+        "moduleID" : "555445F8-9D78-433C-9F57-139179CDC48B"
+      },
+      {
+        "ordinal" : 0,
+        "scope" : "output",
+        "label" : "Out",
+        "identifier" : "output",
+        "payload" : "samples",
+        "isTap" : false,
+        "id" : "D62DEAA7-3A84-4A98-85C7-F4DFFCE8C521",
+        "moduleID" : "016DB736-1529-4686-B4C9-6C75E8C1A91F"
+      },
+      {
+        "ordinal" : 0,
+        "scope" : "output",
+        "label" : "Out",
+        "identifier" : "output",
+        "payload" : "coefficientsIIR",
+        "isTap" : false,
+        "id" : "8F94B5DA-6275-4913-9B32-ACBEBF4FE52E",
+        "moduleID" : "C802C4B0-7945-4396-B14B-6BC3C383145E"
+      },
+      {
+        "ordinal" : 0,
+        "scope" : "output",
+        "label" : "Out",
+        "identifier" : "output",
+        "payload" : "samples",
+        "isTap" : false,
+        "id" : "3B17AFB0-556B-4D0F-825D-94B49366D086",
+        "moduleID" : "555445F8-9D78-433C-9F57-139179CDC48B"
+      },
+      {
+        "ordinal" : 0,
+        "scope" : "output",
+        "label" : "O1",
+        "identifier" : "output-1",
+        "payload" : "samples",
+        "isTap" : false,
+        "id" : "FB4A8DA4-FE86-4D97-B8B1-5AD5CEB9EE6A",
+        "moduleID" : "1B023FDB-12CA-4065-8A02-0998C249C24D"
+      },
+      {
+        "ordinal" : 0,
+        "scope" : "output",
+        "label" : "Out",
+        "identifier" : "port.VVWYCKKX",
+        "payload" : "samples",
+        "isTap" : false,
+        "id" : "5A76C15B-E614-4D0A-80F3-308EAEA9DC91",
+        "moduleID" : "2D18ECC8-C0D6-4925-B358-2A374E8A6005"
+      },
+      {
+        "ordinal" : 0,
+        "scope" : "output",
+        "label" : "Out",
+        "identifier" : "output",
+        "payload" : "samples",
+        "isTap" : false,
+        "id" : "0B211348-3D49-4F4D-BC09-E8D5F040C300",
+        "moduleID" : "6C03D425-05EA-497B-B32E-29B82DABEE84"
+      },
+      {
+        "ordinal" : 0,
+        "scope" : "input",
+        "label" : "In",
+        "identifier" : "input",
+        "payload" : "samples",
+        "connectedPortID" : "FB4A8DA4-FE86-4D97-B8B1-5AD5CEB9EE6A",
+        "isTap" : false,
+        "id" : "5A8DCBCC-29E8-4412-9C2F-6A2D5E08DB6A",
+        "moduleID" : "016DB736-1529-4686-B4C9-6C75E8C1A91F"
+      },
+      {
+        "ordinal" : 1000,
+        "scope" : "input",
+        "label" : "C",
+        "identifier" : "coefficients",
+        "payload" : "coefficientsIIR",
+        "connectedPortID" : "A2563EBE-F6DC-471B-B6C2-25C4BB9B5466",
+        "isTap" : false,
+        "id" : "9FBCED3E-9044-4165-9EEF-FE825595B371",
+        "moduleID" : "0D0E8D77-5A6E-4B8E-889E-3B65038BA893"
+      },
+      {
+        "ordinal" : 2000,
+        "scope" : "input",
+        "label" : "I3",
+        "identifier" : "input-3",
+        "payload" : "samples",
+        "connectedPortID" : "0CF3630B-0170-4E64-8827-43B72E696465",
+        "isTap" : false,
+        "id" : "672DD562-22B3-46F6-B1E6-A9DEDE6D7EC3",
+        "moduleID" : "555445F8-9D78-433C-9F57-139179CDC48B"
+      }
+    ]
+  },
+  "keywords" : [
+      "analysis",
+      "ambience",
+      "analog",
+      "calibration",
+      "coloration",
+      "dithering",
+      "emphasis",
+      "filter",
+      "hiss",
+      "masking",
+      "psychoacoustics",
+      "random",
+      "reference",
+      "shaping",
+      "signal",
+      "slope",
+      "spectrum",
+      "testing"
+  ],
+  "overview" : "Generates pink noise",
+  "details" : "Generates pink noise (-3dB\/oct slope) using Paul Kellett's three-stage filter design."
+}

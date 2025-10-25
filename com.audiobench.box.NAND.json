@@ -1,0 +1,265 @@
+{
+  "title" : "Nand",
+  "details" : "The NAND (“NOT AND”) gate is a universal logic component capable of constructing any other logic function through combinations. It evaluates NOT(A AND B), returning 1 for all input combinations except when both inputs are 1. In audio/control contexts, it can be used to trigger actions only when one or both inputs fall below a threshold condition.",
+  "identifier" : "2553159B-9531-44AC-9615-81D9C57C804B",
+  "version" : "1.0.0",
+  "keywords" : [
+      "boolean",
+      "inversion",
+      "gate"
+  ],
+  "source" : "factory",
+  "isDeleted" : false,
+  "graph" : {
+    "detents" : [
+
+    ],
+    "modules" : [
+      {
+        "not" : {
+          "_0" : {
+            "module" : {
+              "benchOrdinal" : 3000,
+              "benchPosition" : [
+                44.259765625,
+                1.5234375
+              ],
+              "benchInteractivity" : "normal",
+              "identifier" : "module.DDQKPNSG",
+              "name" : "Not",
+              "parameters" : {
+
+              },
+              "notes" : "",
+              "colorIndex" : 27,
+              "id" : "499C2B8F-0D65-4370-83F0-D82082FCE48E",
+              "containerID" : "0AFBD046-D955-4A7E-B0E1-4E3EEFD3C783"
+            }
+          }
+        }
+      },
+      {
+        "and" : {
+          "_0" : {
+            "module" : {
+              "benchOrdinal" : 2000,
+              "benchPosition" : [
+                -45.259765625,
+                0
+              ],
+              "benchInteractivity" : "normal",
+              "identifier" : "module.HVCEMCIX",
+              "name" : "And",
+              "parameters" : {
+                "operandA" : 0,
+                "operandB" : 1
+              },
+              "notes" : "",
+              "colorIndex" : 27,
+              "id" : "9196F547-208C-40F1-839A-CB117A04931E",
+              "containerID" : "0AFBD046-D955-4A7E-B0E1-4E3EEFD3C783"
+            }
+          }
+        }
+      },
+      {
+        "containerPorts" : {
+          "_0" : {
+            "module" : {
+              "benchOrdinal" : 0,
+              "benchPosition" : [
+                137.826171875,
+                0.171875
+              ],
+              "benchInteractivity" : "normal",
+              "identifier" : "container.ports.output",
+              "name" : "Outputs",
+              "parameters" : {
+
+              },
+              "notes" : "",
+              "colorIndex" : 29,
+              "id" : "D2A95653-7F52-42DD-A259-25E4CBBAED3E",
+              "containerID" : "0AFBD046-D955-4A7E-B0E1-4E3EEFD3C783"
+            },
+            "scope" : "output"
+          }
+        }
+      },
+      {
+        "containerPorts" : {
+          "_0" : {
+            "module" : {
+              "benchOrdinal" : 1000,
+              "benchPosition" : [
+                -128.802734375,
+                0.27734375
+              ],
+              "benchInteractivity" : "normal",
+              "identifier" : "container.ports.input",
+              "name" : "Inputs",
+              "parameters" : {
+
+              },
+              "notes" : "",
+              "colorIndex" : 29,
+              "id" : "3E8330B5-C679-4B21-B0A9-C6E298A3C353",
+              "containerID" : "0AFBD046-D955-4A7E-B0E1-4E3EEFD3C783"
+            },
+            "scope" : "input"
+          }
+        }
+      },
+      {
+        "container" : {
+          "_0" : {
+            "module" : {
+              "benchOrdinal" : 0,
+              "benchPosition" : [
+                -34.068359375,
+                -188.09765625
+              ],
+              "benchInteractivity" : "normal",
+              "identifier" : "module.SBSGJXTP",
+              "name" : "NAND",
+              "parameters" : {
+
+              },
+              "notes" : "",
+              "colorIndex" : 27,
+              "id" : "0AFBD046-D955-4A7E-B0E1-4E3EEFD3C783",
+              "containerID" : "DEADBEEF-FEED-FACE-DEED-CAFEBABEFACE"
+            },
+            "isExpanded" : false,
+            "benchOffset" : [
+              -36.80029296875,
+              -38.80010986328125
+            ]
+          }
+        }
+      }
+    ],
+    "rootModuleIDs" : [
+      "0AFBD046-D955-4A7E-B0E1-4E3EEFD3C783"
+    ],
+    "ports" : [
+      {
+        "connectedPortID" : "305A46CC-EE3D-4927-B075-4C0F56B96774",
+        "moduleID" : "9196F547-208C-40F1-839A-CB117A04931E",
+        "identifier" : "operandA",
+        "payload" : "scalar",
+        "isTap" : false,
+        "scope" : "input",
+        "id" : "CE25097B-C796-49D6-AB3A-2648C4016E71",
+        "label" : "A",
+        "ordinal" : 0
+      },
+      {
+        "connectedPortID" : "EA92757C-C80B-4DF5-9EB7-6C5811023E12",
+        "moduleID" : "499C2B8F-0D65-4370-83F0-D82082FCE48E",
+        "identifier" : "input",
+        "payload" : "scalar",
+        "isTap" : false,
+        "scope" : "input",
+        "id" : "E8F038D6-FE00-4295-977C-F05C790659A7",
+        "label" : "In",
+        "ordinal" : 0
+      },
+      {
+        "connectedPortID" : "C890A1B3-5AAA-4AEC-86A6-C8386E850A1F",
+        "moduleID" : "9196F547-208C-40F1-839A-CB117A04931E",
+        "identifier" : "operandB",
+        "payload" : "scalar",
+        "isTap" : false,
+        "scope" : "input",
+        "id" : "A1136667-856F-43AE-8858-F5B04C260373",
+        "label" : "B",
+        "ordinal" : 1000
+      },
+      {
+        "moduleID" : "3E8330B5-C679-4B21-B0A9-C6E298A3C353",
+        "identifier" : "port.JTCDVIZM",
+        "payload" : "scalar",
+        "isTap" : false,
+        "scope" : "output",
+        "id" : "C890A1B3-5AAA-4AEC-86A6-C8386E850A1F",
+        "label" : "B",
+        "ordinal" : 1000
+      },
+      {
+        "moduleID" : "499C2B8F-0D65-4370-83F0-D82082FCE48E",
+        "identifier" : "output",
+        "payload" : "scalar",
+        "isTap" : false,
+        "scope" : "output",
+        "id" : "9D6607FF-FF1F-4EC0-9D63-5DD1BBE7A535",
+        "label" : "Out",
+        "ordinal" : 0
+      },
+      {
+        "moduleID" : "3E8330B5-C679-4B21-B0A9-C6E298A3C353",
+        "identifier" : "port.JTCDVIZM",
+        "payload" : "scalar",
+        "isTap" : false,
+        "scope" : "input",
+        "id" : "FA81FB22-617D-4B81-A640-93C87257DD23",
+        "label" : "B",
+        "ordinal" : 1000
+      },
+      {
+        "connectedPortID" : "9D6607FF-FF1F-4EC0-9D63-5DD1BBE7A535",
+        "moduleID" : "D2A95653-7F52-42DD-A259-25E4CBBAED3E",
+        "identifier" : "port.HHCKUIIF",
+        "payload" : "scalar",
+        "isTap" : false,
+        "scope" : "input",
+        "id" : "D4AF4D2D-FDE1-4334-A7F6-BF568783652F",
+        "label" : "Out",
+        "ordinal" : 0
+      },
+      {
+        "moduleID" : "D2A95653-7F52-42DD-A259-25E4CBBAED3E",
+        "identifier" : "port.HHCKUIIF",
+        "payload" : "scalar",
+        "isTap" : false,
+        "scope" : "output",
+        "id" : "92B3B38D-779C-4BBC-84EB-00BA05AA0137",
+        "label" : "Out",
+        "ordinal" : 0
+      },
+      {
+        "moduleID" : "3E8330B5-C679-4B21-B0A9-C6E298A3C353",
+        "identifier" : "port.YTSYYIQW",
+        "payload" : "scalar",
+        "isTap" : false,
+        "scope" : "input",
+        "id" : "7AB06E58-48F8-4677-8397-8AB9DB92868F",
+        "label" : "A",
+        "ordinal" : 0
+      },
+      {
+        "moduleID" : "3E8330B5-C679-4B21-B0A9-C6E298A3C353",
+        "identifier" : "port.YTSYYIQW",
+        "payload" : "scalar",
+        "isTap" : false,
+        "scope" : "output",
+        "id" : "305A46CC-EE3D-4927-B075-4C0F56B96774",
+        "label" : "A",
+        "ordinal" : 0
+      },
+      {
+        "moduleID" : "9196F547-208C-40F1-839A-CB117A04931E",
+        "identifier" : "result",
+        "payload" : "scalar",
+        "isTap" : false,
+        "scope" : "output",
+        "id" : "EA92757C-C80B-4DF5-9EB7-6C5811023E12",
+        "label" : "Out",
+        "ordinal" : 0
+      }
+    ]
+  },
+  "author" : "AudioBench",
+  "overview" : "Outputs the inverse of a logical AND operation. Outputs 1 unless both inputs non-zero.",
+  "category" : 4
+}

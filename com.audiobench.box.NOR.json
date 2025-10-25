@@ -1,0 +1,265 @@
+{
+  "isDeleted" : false,
+  "keywords" : [
+      "boolean",
+      "inversion",
+      "gate"
+  ],
+  "identifier" : "4E04437E-1738-4268-ABA4-13F07CAE30AF",
+  "overview" : "Outputs the inverse of a logical OR operation. Output 1 only when both inputs are 0.",
+  "source" : "factory",
+  "title" : "Nor",
+  "author" : "AudioBench",
+  "graph" : {
+    "rootModuleIDs" : [
+      "EACE6F84-AC15-4E48-A98A-E6492D430674"
+    ],
+    "modules" : [
+      {
+        "or" : {
+          "_0" : {
+            "module" : {
+              "identifier" : "module.DFOXDMAC",
+              "containerID" : "EACE6F84-AC15-4E48-A98A-E6492D430674",
+              "benchOrdinal" : 4000,
+              "id" : "9EC6ECAD-F340-40EC-927E-9B8850202C94",
+              "notes" : "",
+              "benchInteractivity" : "normal",
+              "colorIndex" : 27,
+              "parameters" : {
+                "operandA" : 0,
+                "operandB" : 1
+              },
+              "benchPosition" : [
+                -36.73095703125,
+                1.63214111328125
+              ],
+              "name" : "Or"
+            }
+          }
+        }
+      },
+      {
+        "not" : {
+          "_0" : {
+            "module" : {
+              "identifier" : "module.DDQKPNSG",
+              "containerID" : "EACE6F84-AC15-4E48-A98A-E6492D430674",
+              "benchOrdinal" : 3000,
+              "id" : "913D98B3-2A0F-4E1D-AA4F-D2EDB22DCDE5",
+              "notes" : "",
+              "benchInteractivity" : "normal",
+              "colorIndex" : 27,
+              "parameters" : {
+
+              },
+              "benchPosition" : [
+                44.259765625,
+                1.5234375
+              ],
+              "name" : "Not"
+            }
+          }
+        }
+      },
+      {
+        "containerPorts" : {
+          "_0" : {
+            "scope" : "input",
+            "module" : {
+              "identifier" : "container.ports.input",
+              "containerID" : "EACE6F84-AC15-4E48-A98A-E6492D430674",
+              "benchOrdinal" : 1000,
+              "id" : "D16ADE2F-79BD-4177-A2E6-08A08F92FA5F",
+              "notes" : "",
+              "benchInteractivity" : "normal",
+              "colorIndex" : 29,
+              "parameters" : {
+
+              },
+              "benchPosition" : [
+                -126.099609375,
+                1.40625
+              ],
+              "name" : "Inputs"
+            }
+          }
+        }
+      },
+      {
+        "container" : {
+          "_0" : {
+            "benchOffset" : [
+              -36.80029296875,
+              -38.80010986328125
+            ],
+            "module" : {
+              "identifier" : "module.SBSGJXTP",
+              "containerID" : "DEADBEEF-FEED-FACE-DEED-CAFEBABEFACE",
+              "benchOrdinal" : 3000,
+              "id" : "EACE6F84-AC15-4E48-A98A-E6492D430674",
+              "notes" : "",
+              "benchInteractivity" : "normal",
+              "colorIndex" : 27,
+              "parameters" : {
+
+              },
+              "benchPosition" : [
+                -34.357421875,
+                -81.921875
+              ],
+              "name" : "NOR"
+            },
+            "isExpanded" : false
+          }
+        }
+      },
+      {
+        "containerPorts" : {
+          "_0" : {
+            "scope" : "output",
+            "module" : {
+              "identifier" : "container.ports.output",
+              "containerID" : "EACE6F84-AC15-4E48-A98A-E6492D430674",
+              "benchOrdinal" : 0,
+              "id" : "442BDB59-1E3F-4CF1-8C47-7E0A86485C65",
+              "notes" : "",
+              "benchInteractivity" : "normal",
+              "colorIndex" : 29,
+              "parameters" : {
+
+              },
+              "benchPosition" : [
+                137.826171875,
+                0.171875
+              ],
+              "name" : "Outputs"
+            }
+          }
+        }
+      }
+    ],
+    "detents" : [
+
+    ],
+    "ports" : [
+      {
+        "isTap" : false,
+        "label" : "B",
+        "identifier" : "port.JTCDVIZM",
+        "scope" : "output",
+        "payload" : "scalar",
+        "id" : "CA1F954A-105F-443D-9CC5-9E710AA2E4D1",
+        "ordinal" : 1000,
+        "moduleID" : "D16ADE2F-79BD-4177-A2E6-08A08F92FA5F"
+      },
+      {
+        "isTap" : false,
+        "label" : "B",
+        "identifier" : "port.JTCDVIZM",
+        "scope" : "input",
+        "payload" : "scalar",
+        "id" : "FA97AE68-980D-4B37-B61B-1E53DD6B1DC5",
+        "ordinal" : 1000,
+        "moduleID" : "D16ADE2F-79BD-4177-A2E6-08A08F92FA5F"
+      },
+      {
+        "isTap" : false,
+        "label" : "A",
+        "identifier" : "operandA",
+        "scope" : "input",
+        "payload" : "scalar",
+        "connectedPortID" : "AC4748F0-0250-4431-B73D-ECB80A2CE5DE",
+        "id" : "E4CDE9FF-C66F-4435-926A-14F675E9C023",
+        "ordinal" : 0,
+        "moduleID" : "9EC6ECAD-F340-40EC-927E-9B8850202C94"
+      },
+      {
+        "isTap" : false,
+        "label" : "Out",
+        "identifier" : "output",
+        "scope" : "output",
+        "payload" : "scalar",
+        "id" : "5038D135-BCA5-4235-9491-5FB766EF700E",
+        "ordinal" : 0,
+        "moduleID" : "913D98B3-2A0F-4E1D-AA4F-D2EDB22DCDE5"
+      },
+      {
+        "isTap" : false,
+        "label" : "A",
+        "identifier" : "port.YTSYYIQW",
+        "scope" : "output",
+        "payload" : "scalar",
+        "id" : "AC4748F0-0250-4431-B73D-ECB80A2CE5DE",
+        "ordinal" : 0,
+        "moduleID" : "D16ADE2F-79BD-4177-A2E6-08A08F92FA5F"
+      },
+      {
+        "isTap" : false,
+        "label" : "Out",
+        "identifier" : "port.HHCKUIIF",
+        "scope" : "input",
+        "payload" : "scalar",
+        "connectedPortID" : "5038D135-BCA5-4235-9491-5FB766EF700E",
+        "id" : "E4C3DD73-54B1-4711-84F3-535EFEED79D4",
+        "ordinal" : 0,
+        "moduleID" : "442BDB59-1E3F-4CF1-8C47-7E0A86485C65"
+      },
+      {
+        "isTap" : false,
+        "label" : "B",
+        "identifier" : "operandB",
+        "scope" : "input",
+        "payload" : "scalar",
+        "connectedPortID" : "CA1F954A-105F-443D-9CC5-9E710AA2E4D1",
+        "id" : "FD7F0195-FBE8-4B43-8808-C41EA95E02F0",
+        "ordinal" : 1000,
+        "moduleID" : "9EC6ECAD-F340-40EC-927E-9B8850202C94"
+      },
+      {
+        "isTap" : false,
+        "label" : "Out",
+        "identifier" : "port.HHCKUIIF",
+        "scope" : "output",
+        "payload" : "scalar",
+        "id" : "667A7DEF-5F27-4E3C-8C9F-50A8ED0B71F5",
+        "ordinal" : 0,
+        "moduleID" : "442BDB59-1E3F-4CF1-8C47-7E0A86485C65"
+      },
+      {
+        "isTap" : false,
+        "label" : "In",
+        "identifier" : "input",
+        "scope" : "input",
+        "payload" : "scalar",
+        "connectedPortID" : "E69DA5F2-E28C-42BB-B3BB-44AFD5E8FC36",
+        "id" : "5B4A4BC7-29F0-47F6-B477-D1DBF74136CF",
+        "ordinal" : 0,
+        "moduleID" : "913D98B3-2A0F-4E1D-AA4F-D2EDB22DCDE5"
+      },
+      {
+        "isTap" : false,
+        "label" : "A",
+        "identifier" : "port.YTSYYIQW",
+        "scope" : "input",
+        "payload" : "scalar",
+        "id" : "E5A96ED5-BBBF-4204-8EE9-4DCE46DB4AC0",
+        "ordinal" : 0,
+        "moduleID" : "D16ADE2F-79BD-4177-A2E6-08A08F92FA5F"
+      },
+      {
+        "isTap" : false,
+        "label" : "Out",
+        "identifier" : "result",
+        "scope" : "output",
+        "payload" : "scalar",
+        "id" : "E69DA5F2-E28C-42BB-B3BB-44AFD5E8FC36",
+        "ordinal" : 0,
+        "moduleID" : "9EC6ECAD-F340-40EC-927E-9B8850202C94"
+      }
+    ]
+  },
+  "category" : 4,
+  "details" : "The NOR (“NOT OR”) gate computes NOT(A OR B), acting as the complement to OR. It outputs 1 only when all inputs are 0. This can be used as a global “none-active” detector or reset condition in signal logic networks.",
+  "version" : "1.0.0"
+}

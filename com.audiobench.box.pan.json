@@ -1,0 +1,1329 @@
+{
+  "category" : 2,
+  "identifier" : "E14FDB34-0308-4F13-88CB-088D083F32A8",
+  "isDeleted" : false,
+  "details" : "The Pan module distributes a mono signal across stereo outputs according to an equal-power mixing control. Ideal for spatial placement, stereo widening, or animated motion when driven by control signals or LFOs.",
+  "overview" : "Distributes a single audio input across two outputs",
+  "source" : "factory",
+  "keywords" : [
+    "stereo",
+    "balance",
+    "spatial",
+    "placement",
+    "left",
+    "right",
+    "equal power",
+    "motion",
+    "modulation",
+    "width",
+    "spatializer",
+    "field",
+    "crossfade",
+    "mix",
+    "routing"
+  ],
+  "author" : "AudioBench",
+  "title" : "Pan",
+  "version" : "1.0.0",
+  "graph" : {
+    "ports" : [
+      {
+        "identifier" : "port.AHXMNPIX",
+        "isTap" : false,
+        "id" : "76E62056-EE46-4CA0-9278-F53635FE7410",
+        "ordinal" : 1000,
+        "payload" : "scalar",
+        "scope" : "output",
+        "moduleID" : "91A8ED4B-1DC5-4ADA-A310-86FFE091E03D",
+        "label" : "Y"
+      },
+      {
+        "identifier" : "port.FEEFFFTM",
+        "isTap" : false,
+        "id" : "B5B4E8AE-C3D1-4C1C-A83F-382C92A89636",
+        "ordinal" : 0,
+        "payload" : "scalar",
+        "scope" : "output",
+        "moduleID" : "6ECFFAA8-C7E9-492B-91E4-E28F3EB053CD",
+        "label" : "Out"
+      },
+      {
+        "identifier" : "input",
+        "isTap" : false,
+        "id" : "60C19FAB-26E6-4F18-A763-FA7B324DCB21",
+        "ordinal" : 0,
+        "payload" : "samples",
+        "connectedPortID" : "D6772180-585B-44EB-9A4F-B193D3C4809E",
+        "scope" : "input",
+        "moduleID" : "0006C280-0219-4340-B0DF-B522C94F45C6",
+        "label" : "In"
+      },
+      {
+        "identifier" : "input",
+        "isTap" : false,
+        "id" : "973C46E2-D0C9-4381-8086-C980A68DFF36",
+        "ordinal" : 0,
+        "payload" : "scalar",
+        "connectedPortID" : "87B3B22B-54AD-412F-948E-F293DBB6798E",
+        "scope" : "input",
+        "moduleID" : "7BC64053-6BE4-45E3-888A-B4560259B5B9",
+        "label" : "In"
+      },
+      {
+        "identifier" : "input",
+        "isTap" : false,
+        "id" : "6FCB0370-C4EE-4CAC-8A5E-DE0F457EB4F3",
+        "ordinal" : 0,
+        "payload" : "scalar",
+        "connectedPortID" : "527C76A2-70E0-487E-A376-1EABE43A7011",
+        "scope" : "input",
+        "moduleID" : "ED2D05CF-23BE-451E-8C6B-6F15073278ED",
+        "label" : "In"
+      },
+      {
+        "identifier" : "port.FFAHXBYC",
+        "isTap" : false,
+        "id" : "8F610DBC-395D-4827-82AB-CA48266CB4FE",
+        "ordinal" : 0,
+        "payload" : "scalar",
+        "scope" : "output",
+        "moduleID" : "DB6B0B69-9ED7-4C1C-8063-842D2F3434E2",
+        "label" : "Out"
+      },
+      {
+        "identifier" : "output",
+        "isTap" : false,
+        "id" : "7314D375-9E99-4CD1-874B-F5E6DE4A9A8A",
+        "ordinal" : 0,
+        "payload" : "scalar",
+        "scope" : "output",
+        "moduleID" : "ED2D05CF-23BE-451E-8C6B-6F15073278ED",
+        "label" : "Out"
+      },
+      {
+        "identifier" : "input-2",
+        "isTap" : false,
+        "id" : "58E00D3E-0283-434E-8C1A-14FB2F43EB3D",
+        "ordinal" : 1000,
+        "payload" : "scalar",
+        "connectedPortID" : "E2519E36-01D0-4688-8B5E-0D56B28D2DA9",
+        "scope" : "input",
+        "moduleID" : "2D5E832D-503D-4919-8035-3F7F51ED269A",
+        "label" : "Y"
+      },
+      {
+        "identifier" : "input",
+        "isTap" : false,
+        "id" : "6D9AB408-BA7C-477F-B3E1-5193CE2CBA22",
+        "ordinal" : 0,
+        "payload" : "samples",
+        "connectedPortID" : "B6CB8C9D-D891-4393-8A90-67579DFAF3B1",
+        "scope" : "input",
+        "moduleID" : "9B8EDAFA-F342-4BE8-BA5F-F40F82CEEF8B",
+        "label" : "In"
+      },
+      {
+        "identifier" : "output",
+        "isTap" : false,
+        "id" : "9217FC86-D42A-4B5B-89F4-18AD99DDCB51",
+        "ordinal" : 0,
+        "payload" : "samples",
+        "scope" : "output",
+        "moduleID" : "9B8EDAFA-F342-4BE8-BA5F-F40F82CEEF8B",
+        "label" : "Out"
+      },
+      {
+        "identifier" : "port.GBLFNVMJ",
+        "isTap" : false,
+        "id" : "01F71992-65AF-43AF-90B6-598C9B1678ED",
+        "ordinal" : 0,
+        "payload" : "scalar",
+        "connectedPortID" : "B5B4E8AE-C3D1-4C1C-A83F-382C92A89636",
+        "scope" : "input",
+        "moduleID" : "91A8ED4B-1DC5-4ADA-A310-86FFE091E03D",
+        "label" : "X"
+      },
+      {
+        "identifier" : "input-1",
+        "isTap" : false,
+        "id" : "B8D2D145-242B-4984-95D7-38BA61E178A9",
+        "ordinal" : 0,
+        "payload" : "scalar",
+        "connectedPortID" : "AC295E44-C154-402E-AEA9-14CAA27A2567",
+        "scope" : "input",
+        "moduleID" : "C7242FF1-5B6C-4B26-ACFD-2BABA35B5683",
+        "label" : "I1"
+      },
+      {
+        "identifier" : "input",
+        "isTap" : false,
+        "id" : "937FFABD-23C7-4317-B238-4EE225922C76",
+        "ordinal" : 0,
+        "payload" : "scalar",
+        "connectedPortID" : "FA71D7AA-06F6-426A-930B-80999AB6AA60",
+        "scope" : "input",
+        "moduleID" : "91D61CFA-3560-4D29-B5F1-CC85EBC75855",
+        "label" : "In"
+      },
+      {
+        "identifier" : "input-1",
+        "isTap" : false,
+        "id" : "0272BE80-4E88-4941-877F-2BDAB662E50D",
+        "ordinal" : 0,
+        "payload" : "scalar",
+        "connectedPortID" : "76E62056-EE46-4CA0-9278-F53635FE7410",
+        "scope" : "input",
+        "moduleID" : "D98D4D49-4516-4AD6-92BF-6507B5A57F4A",
+        "label" : "I1"
+      },
+      {
+        "identifier" : "port.AHXMNPIX",
+        "isTap" : false,
+        "id" : "0004F600-AEBB-4BE9-A6B1-682F82BA1342",
+        "ordinal" : 1000,
+        "payload" : "scalar",
+        "connectedPortID" : "97638431-72CE-4FEA-A4BC-1F4893040E3B",
+        "scope" : "input",
+        "moduleID" : "91A8ED4B-1DC5-4ADA-A310-86FFE091E03D",
+        "label" : "Y"
+      },
+      {
+        "identifier" : "output",
+        "isTap" : false,
+        "id" : "A9ABF02C-0E54-4F95-B8A8-293DB462C8B9",
+        "ordinal" : 0,
+        "payload" : "scalar",
+        "scope" : "output",
+        "moduleID" : "7BC64053-6BE4-45E3-888A-B4560259B5B9",
+        "label" : "Out"
+      },
+      {
+        "identifier" : "port.JIFWXTCJ",
+        "isTap" : false,
+        "id" : "1332165F-EC31-442A-8767-F0178C9516AF",
+        "ordinal" : 0,
+        "payload" : "scalar",
+        "connectedPortID" : "6876EE9C-C137-4903-BE67-4C29D2821DAF",
+        "scope" : "input",
+        "moduleID" : "AB106AC5-B268-4FE7-A66F-F9AF27FECB67",
+        "label" : "X"
+      },
+      {
+        "identifier" : "port.GBLFNVMJ",
+        "isTap" : false,
+        "id" : "AC6D61C8-3392-4AD9-B458-7204489C533E",
+        "ordinal" : 0,
+        "payload" : "scalar",
+        "connectedPortID" : "5E034E09-60F3-4B63-B73C-C93426D21959",
+        "scope" : "input",
+        "moduleID" : "7164CBA3-FD9B-4CC4-A55A-39EC859B2B71",
+        "label" : "X"
+      },
+      {
+        "identifier" : "input-1",
+        "isTap" : false,
+        "id" : "549C2CF5-1147-438A-9AE8-1B6E0D627499",
+        "ordinal" : 0,
+        "payload" : "scalar",
+        "connectedPortID" : "35567E57-36B4-4B28-AD36-6766F1729CE6",
+        "scope" : "input",
+        "moduleID" : "2D5E832D-503D-4919-8035-3F7F51ED269A",
+        "label" : "X"
+      },
+      {
+        "identifier" : "input",
+        "isTap" : false,
+        "id" : "970916EF-7374-413C-BAB4-9A9AFB954F59",
+        "ordinal" : 0,
+        "payload" : "scalar",
+        "connectedPortID" : "2B200354-4A1F-4D51-A5BD-95E39542639D",
+        "scope" : "input",
+        "moduleID" : "31223CF8-2994-4917-9881-731A5B166EF6",
+        "label" : "In"
+      },
+      {
+        "identifier" : "port.OKIQGZSN",
+        "isTap" : false,
+        "id" : "B81AF1B9-640B-4519-96E8-3A110B58DFE0",
+        "ordinal" : 1000,
+        "payload" : "scalar",
+        "connectedPortID" : "E76379A6-6519-449C-B428-7171E67A8011",
+        "scope" : "input",
+        "moduleID" : "AB106AC5-B268-4FE7-A66F-F9AF27FECB67",
+        "label" : "Y"
+      },
+      {
+        "identifier" : "port.GBLFNVMJ",
+        "isTap" : false,
+        "id" : "87B3B22B-54AD-412F-948E-F293DBB6798E",
+        "ordinal" : 0,
+        "payload" : "scalar",
+        "scope" : "output",
+        "moduleID" : "7164CBA3-FD9B-4CC4-A55A-39EC859B2B71",
+        "label" : "X"
+      },
+      {
+        "identifier" : "port.IHHIIWJQ",
+        "isTap" : false,
+        "id" : "B16EAA35-0D09-41DE-BDED-2AE3B1D294E7",
+        "ordinal" : 1000,
+        "payload" : "scalar",
+        "connectedPortID" : "16E12B2B-BE5A-427A-82BB-C8BA1EC466A6",
+        "scope" : "input",
+        "moduleID" : "22C004EA-2CC3-4E7F-AC3A-9FB93E729FDF",
+        "label" : "Pan"
+      },
+      {
+        "identifier" : "output",
+        "isTap" : false,
+        "id" : "07DDF9DD-C506-426B-A384-488E9E2AF81E",
+        "ordinal" : 0,
+        "payload" : "samples",
+        "scope" : "output",
+        "moduleID" : "0006C280-0219-4340-B0DF-B522C94F45C6",
+        "label" : "Out"
+      },
+      {
+        "identifier" : "output",
+        "isTap" : false,
+        "id" : "6876EE9C-C137-4903-BE67-4C29D2821DAF",
+        "ordinal" : 0,
+        "payload" : "scalar",
+        "scope" : "output",
+        "moduleID" : "016CD98F-55EE-492C-B2FE-22FD57BE4A80",
+        "label" : "Out"
+      },
+      {
+        "identifier" : "port.FFAHXBYC",
+        "isTap" : false,
+        "id" : "92BA289D-23A8-4DB0-B981-2EB65C1A33C5",
+        "ordinal" : 0,
+        "payload" : "scalar",
+        "connectedPortID" : "0D1277A4-24AD-445C-BC9D-1B46F104B317",
+        "scope" : "input",
+        "moduleID" : "B3A144C9-49AB-43AA-9418-28E088017FAD",
+        "label" : "Out"
+      },
+      {
+        "identifier" : "output-1",
+        "isTap" : false,
+        "id" : "D6772180-585B-44EB-9A4F-B193D3C4809E",
+        "ordinal" : 0,
+        "payload" : "any",
+        "scope" : "output",
+        "moduleID" : "E6C4FF33-E1E5-4A4E-BD33-1A62E87B5747",
+        "label" : "Out1"
+      },
+      {
+        "identifier" : "port.IHHIIWJQ",
+        "isTap" : false,
+        "id" : "BE2CAB38-2BAE-4D2B-9224-941524631096",
+        "ordinal" : 1000,
+        "payload" : "scalar",
+        "scope" : "output",
+        "moduleID" : "22C004EA-2CC3-4E7F-AC3A-9FB93E729FDF",
+        "label" : "Pan"
+      },
+      {
+        "identifier" : "input",
+        "isTap" : false,
+        "id" : "89C7C38F-F2ED-48F8-B8F7-C0DACC62D503",
+        "ordinal" : 0,
+        "payload" : "any",
+        "connectedPortID" : "6E7F6B88-33B2-4648-9A5F-894CE48BF58F",
+        "scope" : "input",
+        "moduleID" : "E6C4FF33-E1E5-4A4E-BD33-1A62E87B5747",
+        "label" : "In"
+      },
+      {
+        "identifier" : "output",
+        "isTap" : false,
+        "id" : "527C76A2-70E0-487E-A376-1EABE43A7011",
+        "ordinal" : 0,
+        "payload" : "scalar",
+        "scope" : "output",
+        "moduleID" : "D98D4D49-4516-4AD6-92BF-6507B5A57F4A",
+        "label" : "Out"
+      },
+      {
+        "identifier" : "scale",
+        "isTap" : false,
+        "id" : "AA9FB1C0-BE96-422B-8826-F943494A74DF",
+        "ordinal" : 1000,
+        "payload" : "scalar",
+        "connectedPortID" : "8F610DBC-395D-4827-82AB-CA48266CB4FE",
+        "scope" : "input",
+        "moduleID" : "0006C280-0219-4340-B0DF-B522C94F45C6",
+        "label" : "S"
+      },
+      {
+        "identifier" : "output",
+        "isTap" : false,
+        "id" : "97638431-72CE-4FEA-A4BC-1F4893040E3B",
+        "ordinal" : 0,
+        "payload" : "scalar",
+        "scope" : "output",
+        "moduleID" : "090C9547-95E1-4A31-ABA8-7BD8304FAF16",
+        "label" : "Out"
+      },
+      {
+        "identifier" : "output",
+        "isTap" : false,
+        "id" : "F4A94E9F-E744-4843-BC09-9D6121191245",
+        "ordinal" : 0,
+        "payload" : "scalar",
+        "scope" : "output",
+        "moduleID" : "DB031A76-E43B-4319-BE02-D4B936BE0C62",
+        "label" : "Out"
+      },
+      {
+        "identifier" : "output",
+        "isTap" : false,
+        "id" : "FA71D7AA-06F6-426A-930B-80999AB6AA60",
+        "ordinal" : 0,
+        "payload" : "scalar",
+        "scope" : "output",
+        "moduleID" : "C7242FF1-5B6C-4B26-ACFD-2BABA35B5683",
+        "label" : "Out"
+      },
+      {
+        "identifier" : "output-1",
+        "isTap" : false,
+        "id" : "E76379A6-6519-449C-B428-7171E67A8011",
+        "ordinal" : 0,
+        "payload" : "any",
+        "scope" : "output",
+        "moduleID" : "C6DCEAC3-AD6B-4028-A923-272F75EA98BF",
+        "label" : "Out1"
+      },
+      {
+        "identifier" : "port.CDZJDBDF",
+        "isTap" : false,
+        "id" : "A9B00D80-018E-49E7-A637-F6DD223FC346",
+        "ordinal" : 0,
+        "payload" : "samples",
+        "connectedPortID" : "BD98B66F-6329-4E15-9399-F41E65F53218",
+        "scope" : "input",
+        "moduleID" : "22C004EA-2CC3-4E7F-AC3A-9FB93E729FDF",
+        "label" : "In"
+      },
+      {
+        "identifier" : "port.BYDLKUGQ",
+        "isTap" : false,
+        "id" : "7C9CDF33-DAD3-411E-B1D4-1F425660AFE7",
+        "ordinal" : 1000,
+        "payload" : "samples",
+        "scope" : "output",
+        "moduleID" : "F58EB9EE-B6F6-4CD4-ADB6-A639A8913EA2",
+        "label" : "Right"
+      },
+      {
+        "identifier" : "port.OKIQGZSN",
+        "isTap" : false,
+        "id" : "9CB23660-DD15-4683-8D98-9A2976016793",
+        "ordinal" : 1000,
+        "payload" : "scalar",
+        "scope" : "output",
+        "moduleID" : "AB106AC5-B268-4FE7-A66F-F9AF27FECB67",
+        "label" : "Y"
+      },
+      {
+        "identifier" : "port.AQIVEQAN",
+        "isTap" : false,
+        "id" : "6C9C8638-440B-4657-A7DC-707B721B427B",
+        "ordinal" : 0,
+        "payload" : "samples",
+        "scope" : "output",
+        "moduleID" : "F58EB9EE-B6F6-4CD4-ADB6-A639A8913EA2",
+        "label" : "Left"
+      },
+      {
+        "identifier" : "output-2",
+        "isTap" : false,
+        "id" : "B6CB8C9D-D891-4393-8A90-67579DFAF3B1",
+        "ordinal" : 1000,
+        "payload" : "any",
+        "scope" : "output",
+        "moduleID" : "E6C4FF33-E1E5-4A4E-BD33-1A62E87B5747",
+        "label" : "Out2"
+      },
+      {
+        "identifier" : "output",
+        "isTap" : false,
+        "id" : "886988C5-DBE7-4715-8940-9F1997160232",
+        "ordinal" : 0,
+        "payload" : "scalar",
+        "scope" : "output",
+        "moduleID" : "2D5E832D-503D-4919-8035-3F7F51ED269A",
+        "label" : "Out"
+      },
+      {
+        "identifier" : "output",
+        "isTap" : false,
+        "id" : "0D1277A4-24AD-445C-BC9D-1B46F104B317",
+        "ordinal" : 0,
+        "payload" : "scalar",
+        "scope" : "output",
+        "moduleID" : "91D61CFA-3560-4D29-B5F1-CC85EBC75855",
+        "label" : "Out"
+      },
+      {
+        "identifier" : "port.AQIVEQAN",
+        "isTap" : false,
+        "id" : "FDCA4EEA-373D-4024-91B4-E7AFE459F818",
+        "ordinal" : 0,
+        "payload" : "samples",
+        "connectedPortID" : "07DDF9DD-C506-426B-A384-488E9E2AF81E",
+        "scope" : "input",
+        "moduleID" : "F58EB9EE-B6F6-4CD4-ADB6-A639A8913EA2",
+        "label" : "Left"
+      },
+      {
+        "identifier" : "port.JIFWXTCJ",
+        "isTap" : false,
+        "id" : "35567E57-36B4-4B28-AD36-6766F1729CE6",
+        "ordinal" : 0,
+        "payload" : "scalar",
+        "scope" : "output",
+        "moduleID" : "AB106AC5-B268-4FE7-A66F-F9AF27FECB67",
+        "label" : "X"
+      },
+      {
+        "identifier" : "output",
+        "isTap" : false,
+        "id" : "31D52BFB-2575-47E1-A63D-ACDDD86F9ADE",
+        "ordinal" : 0,
+        "payload" : "scalar",
+        "scope" : "output",
+        "moduleID" : "31223CF8-2994-4917-9881-731A5B166EF6",
+        "label" : "Out"
+      },
+      {
+        "identifier" : "port.FFAHXBYC",
+        "isTap" : false,
+        "id" : "91EFC6FE-0D0E-4AE3-9AAF-9210155F8EE6",
+        "ordinal" : 0,
+        "payload" : "scalar",
+        "scope" : "output",
+        "moduleID" : "B3A144C9-49AB-43AA-9418-28E088017FAD",
+        "label" : "Out"
+      },
+      {
+        "identifier" : "port.BYDLKUGQ",
+        "isTap" : false,
+        "id" : "A68C6329-93E7-4AE6-A910-75F2C8D7517F",
+        "ordinal" : 1000,
+        "payload" : "samples",
+        "connectedPortID" : "9217FC86-D42A-4B5B-89F4-18AD99DDCB51",
+        "scope" : "input",
+        "moduleID" : "F58EB9EE-B6F6-4CD4-ADB6-A639A8913EA2",
+        "label" : "Right"
+      },
+      {
+        "identifier" : "port.FEEFFFTM",
+        "isTap" : false,
+        "id" : "16313A1F-5995-4326-BB63-2E6938AD0930",
+        "ordinal" : 0,
+        "payload" : "scalar",
+        "connectedPortID" : "886988C5-DBE7-4715-8940-9F1997160232",
+        "scope" : "input",
+        "moduleID" : "6ECFFAA8-C7E9-492B-91E4-E28F3EB053CD",
+        "label" : "Out"
+      },
+      {
+        "identifier" : "port.AHXMNPIX",
+        "isTap" : false,
+        "id" : "AC295E44-C154-402E-AEA9-14CAA27A2567",
+        "ordinal" : 1000,
+        "payload" : "scalar",
+        "scope" : "output",
+        "moduleID" : "7164CBA3-FD9B-4CC4-A55A-39EC859B2B71",
+        "label" : "Y"
+      },
+      {
+        "identifier" : "port.CDZJDBDF",
+        "isTap" : false,
+        "id" : "6E7F6B88-33B2-4648-9A5F-894CE48BF58F",
+        "ordinal" : 0,
+        "payload" : "samples",
+        "scope" : "output",
+        "moduleID" : "22C004EA-2CC3-4E7F-AC3A-9FB93E729FDF",
+        "label" : "In"
+      },
+      {
+        "identifier" : "port.FFAHXBYC",
+        "isTap" : false,
+        "id" : "7C186E00-D978-40D4-8F05-B23E209A6630",
+        "ordinal" : 0,
+        "payload" : "scalar",
+        "connectedPortID" : "7314D375-9E99-4CD1-874B-F5E6DE4A9A8A",
+        "scope" : "input",
+        "moduleID" : "DB6B0B69-9ED7-4C1C-8063-842D2F3434E2",
+        "label" : "Out"
+      },
+      {
+        "identifier" : "input-2",
+        "isTap" : false,
+        "id" : "9EE6A5F4-F0EA-45FC-8473-B490A3864A36",
+        "ordinal" : 1000,
+        "payload" : "scalar",
+        "connectedPortID" : "A9ABF02C-0E54-4F95-B8A8-293DB462C8B9",
+        "scope" : "input",
+        "moduleID" : "C7242FF1-5B6C-4B26-ACFD-2BABA35B5683",
+        "label" : "I2"
+      },
+      {
+        "identifier" : "input",
+        "isTap" : false,
+        "id" : "8CBD541C-5940-4387-A1B7-E4C4DCA0F703",
+        "ordinal" : 0,
+        "payload" : "scalar",
+        "connectedPortID" : "9CB23660-DD15-4683-8D98-9A2976016793",
+        "scope" : "input",
+        "moduleID" : "A7E9D11E-D901-40BE-9E47-5D18C3662C8B",
+        "label" : "In"
+      },
+      {
+        "identifier" : "port.GBLFNVMJ",
+        "isTap" : false,
+        "id" : "2B200354-4A1F-4D51-A5BD-95E39542639D",
+        "ordinal" : 0,
+        "payload" : "scalar",
+        "scope" : "output",
+        "moduleID" : "91A8ED4B-1DC5-4ADA-A310-86FFE091E03D",
+        "label" : "X"
+      },
+      {
+        "identifier" : "input",
+        "isTap" : false,
+        "id" : "698E311F-6B3F-4C2C-9A1A-9B3FCA27BAD3",
+        "ordinal" : 0,
+        "payload" : "any",
+        "connectedPortID" : "BE2CAB38-2BAE-4D2B-9224-941524631096",
+        "scope" : "input",
+        "moduleID" : "C6DCEAC3-AD6B-4028-A923-272F75EA98BF",
+        "label" : "In"
+      },
+      {
+        "identifier" : "port.AHXMNPIX",
+        "isTap" : false,
+        "id" : "D3F773EB-7F85-4D58-ADD2-903AD63E7E7C",
+        "ordinal" : 1000,
+        "payload" : "scalar",
+        "connectedPortID" : "F4A94E9F-E744-4843-BC09-9D6121191245",
+        "scope" : "input",
+        "moduleID" : "7164CBA3-FD9B-4CC4-A55A-39EC859B2B71",
+        "label" : "Y"
+      },
+      {
+        "identifier" : "output",
+        "isTap" : false,
+        "id" : "E2519E36-01D0-4688-8B5E-0D56B28D2DA9",
+        "ordinal" : 0,
+        "payload" : "scalar",
+        "scope" : "output",
+        "moduleID" : "A7E9D11E-D901-40BE-9E47-5D18C3662C8B",
+        "label" : "Out"
+      },
+      {
+        "identifier" : "output-2",
+        "isTap" : false,
+        "id" : "5E034E09-60F3-4B63-B73C-C93426D21959",
+        "ordinal" : 1000,
+        "payload" : "any",
+        "scope" : "output",
+        "moduleID" : "C6DCEAC3-AD6B-4028-A923-272F75EA98BF",
+        "label" : "Out2"
+      },
+      {
+        "identifier" : "input-2",
+        "isTap" : false,
+        "id" : "5B06CBB7-3954-4D72-A601-FB4C315325F4",
+        "ordinal" : 1000,
+        "payload" : "scalar",
+        "connectedPortID" : "31D52BFB-2575-47E1-A63D-ACDDD86F9ADE",
+        "scope" : "input",
+        "moduleID" : "D98D4D49-4516-4AD6-92BF-6507B5A57F4A",
+        "label" : "I2"
+      },
+      {
+        "identifier" : "scale",
+        "isTap" : false,
+        "id" : "40AFAE90-7C7F-4686-8DF4-2E3436FAD325",
+        "ordinal" : 1000,
+        "payload" : "scalar",
+        "connectedPortID" : "91EFC6FE-0D0E-4AE3-9AAF-9210155F8EE6",
+        "scope" : "input",
+        "moduleID" : "9B8EDAFA-F342-4BE8-BA5F-F40F82CEEF8B",
+        "label" : "S"
+      }
+    ],
+    "modules" : [
+      {
+        "scale" : {
+          "_0" : {
+            "module" : {
+              "colorIndex" : 27,
+              "identifier" : "module.QEXNSXPW",
+              "parameters" : {
+                "mute" : 0,
+                "scale" : 1,
+                "bypass" : 0
+              },
+              "id" : "9B8EDAFA-F342-4BE8-BA5F-F40F82CEEF8B",
+              "notes" : "",
+              "benchPosition" : [
+                191.998046875,
+                65.322265625
+              ],
+              "benchOrdinal" : 7000,
+              "benchInteractivity" : "normal",
+              "name" : "Scale",
+              "containerID" : "C5AF4D06-F386-466C-A575-9FF699D4E052"
+            }
+          }
+        }
+      },
+      {
+        "constant" : {
+          "_0" : {
+            "module" : {
+              "identifier" : "module.TYBEYULZ",
+              "colorIndex" : 27,
+              "parameters" : {
+
+              },
+              "id" : "DB031A76-E43B-4319-BE02-D4B936BE0C62",
+              "notes" : "",
+              "benchPosition" : [
+                2.771484375,
+                162.541015625
+              ],
+              "benchOrdinal" : 6000,
+              "benchInteractivity" : "normal",
+              "name" : "K",
+              "containerID" : "C5AF4D06-F386-466C-A575-9FF699D4E052"
+            },
+            "value" : 0.5,
+            "source" : "custom"
+          }
+        }
+      },
+      {
+        "container" : {
+          "_0" : {
+            "module" : {
+              "identifier" : "module.GLHLPZGE",
+              "colorIndex" : 27,
+              "parameters" : {
+
+              },
+              "id" : "69E3101E-8563-4176-94CB-0F5691FDA467",
+              "notes" : "out = x^y",
+              "benchPosition" : [
+                77.599609375,
+                -80.001953125
+              ],
+              "benchOrdinal" : 14000,
+              "benchInteractivity" : "normal",
+              "name" : "Power",
+              "containerID" : "C5AF4D06-F386-466C-A575-9FF699D4E052"
+            },
+            "benchOffset" : [
+              -29.600341796875,
+              -2.4000244140625
+            ],
+            "isExpanded" : false
+          }
+        }
+      },
+      {
+        "exp" : {
+          "_0" : {
+            "module" : {
+              "identifier" : "module.JSCGVBVV",
+              "colorIndex" : 27,
+              "parameters" : {
+
+              },
+              "id" : "ED2D05CF-23BE-451E-8C6B-6F15073278ED",
+              "notes" : "",
+              "benchPosition" : [
+                97.28515625,
+                -26.099609375
+              ],
+              "benchOrdinal" : 10000,
+              "benchInteractivity" : "normal",
+              "name" : "e^in",
+              "containerID" : "69E3101E-8563-4176-94CB-0F5691FDA467"
+            }
+          }
+        }
+      },
+      {
+        "containerPorts" : {
+          "_0" : {
+            "module" : {
+              "identifier" : "container.ports.output",
+              "colorIndex" : 29,
+              "parameters" : {
+
+              },
+              "id" : "6ECFFAA8-C7E9-492B-91E4-E28F3EB053CD",
+              "notes" : "",
+              "benchPosition" : [
+                168.158203125,
+                -15.359375
+              ],
+              "benchOrdinal" : 0,
+              "benchInteractivity" : "normal",
+              "name" : "Outputs",
+              "containerID" : "C08298D2-A146-470A-B914-F025423AD3F0"
+            },
+            "scope" : "output"
+          }
+        }
+      },
+      {
+        "containerPorts" : {
+          "_0" : {
+            "module" : {
+              "identifier" : "container.ports.input",
+              "colorIndex" : 29,
+              "parameters" : {
+
+              },
+              "id" : "7164CBA3-FD9B-4CC4-A55A-39EC859B2B71",
+              "notes" : "",
+              "benchPosition" : [
+                -198.3046875,
+                -24.00390625
+              ],
+              "benchOrdinal" : 1000,
+              "benchInteractivity" : "normal",
+              "name" : "Inputs",
+              "containerID" : "35FC7866-0D16-4B14-924B-C1D0CAFFD780"
+            },
+            "scope" : "input"
+          }
+        }
+      },
+      {
+        "log" : {
+          "_0" : {
+            "module" : {
+              "identifier" : "module.ENJQSETP",
+              "colorIndex" : 27,
+              "parameters" : {
+
+              },
+              "id" : "31223CF8-2994-4917-9881-731A5B166EF6",
+              "notes" : "",
+              "benchPosition" : [
+                -103.36328125,
+                23.810546875
+              ],
+              "benchOrdinal" : 11000,
+              "benchInteractivity" : "normal",
+              "name" : "ln(x)",
+              "containerID" : "69E3101E-8563-4176-94CB-0F5691FDA467"
+            }
+          }
+        }
+      },
+      {
+        "container" : {
+          "_0" : {
+            "module" : {
+              "identifier" : "module.TUQWMVTV",
+              "colorIndex" : 27,
+              "parameters" : {
+
+              },
+              "id" : "C08298D2-A146-470A-B914-F025423AD3F0",
+              "notes" : "out = X - Y",
+              "benchPosition" : [
+                -35.728515625,
+                -110.501953125
+              ],
+              "benchOrdinal" : 9000,
+              "benchInteractivity" : "normal",
+              "name" : "Subtract",
+              "containerID" : "C5AF4D06-F386-466C-A575-9FF699D4E052"
+            },
+            "benchOffset" : [
+              -170.80029296875,
+              -22.8001708984375
+            ],
+            "isExpanded" : false
+          }
+        }
+      },
+      {
+        "containerPorts" : {
+          "_0" : {
+            "module" : {
+              "identifier" : "container.ports.input",
+              "colorIndex" : 29,
+              "parameters" : {
+
+              },
+              "id" : "91A8ED4B-1DC5-4ADA-A310-86FFE091E03D",
+              "notes" : "",
+              "benchPosition" : [
+                -198.3046875,
+                -24.00390625
+              ],
+              "benchOrdinal" : 1000,
+              "benchInteractivity" : "normal",
+              "name" : "Inputs",
+              "containerID" : "69E3101E-8563-4176-94CB-0F5691FDA467"
+            },
+            "scope" : "input"
+          }
+        }
+      },
+      {
+        "containerPorts" : {
+          "_0" : {
+            "module" : {
+              "identifier" : "container.ports.output",
+              "colorIndex" : 29,
+              "parameters" : {
+
+              },
+              "id" : "B3A144C9-49AB-43AA-9418-28E088017FAD",
+              "notes" : "",
+              "benchPosition" : [
+                222.7265625,
+                -25.625
+              ],
+              "benchOrdinal" : 0,
+              "benchInteractivity" : "normal",
+              "name" : "Outputs",
+              "containerID" : "35FC7866-0D16-4B14-924B-C1D0CAFFD780"
+            },
+            "scope" : "output"
+          }
+        }
+      },
+      {
+        "containerPorts" : {
+          "_0" : {
+            "module" : {
+              "identifier" : "container.ports.input",
+              "colorIndex" : 29,
+              "parameters" : {
+
+              },
+              "id" : "AB106AC5-B268-4FE7-A66F-F9AF27FECB67",
+              "notes" : "",
+              "benchPosition" : [
+                -148.853515625,
+                -13.41015625
+              ],
+              "benchOrdinal" : 1000,
+              "benchInteractivity" : "normal",
+              "name" : "Inputs",
+              "containerID" : "C08298D2-A146-470A-B914-F025423AD3F0"
+            },
+            "scope" : "input"
+          }
+        }
+      },
+      {
+        "multiply" : {
+          "_0" : {
+            "module" : {
+              "identifier" : "module.GNVPCDKQ",
+              "colorIndex" : 27,
+              "parameters" : {
+
+              },
+              "id" : "D98D4D49-4516-4AD6-92BF-6507B5A57F4A",
+              "notes" : "",
+              "benchPosition" : [
+                -0.5859375,
+                -26.044921875
+              ],
+              "benchOrdinal" : 13000,
+              "benchInteractivity" : "normal",
+              "name" : "Multiply",
+              "containerID" : "69E3101E-8563-4176-94CB-0F5691FDA467"
+            }
+          }
+        }
+      },
+      {
+        "container" : {
+          "_0" : {
+            "module" : {
+              "identifier" : "module.GLHLPZGE",
+              "colorIndex" : 27,
+              "parameters" : {
+
+              },
+              "id" : "35FC7866-0D16-4B14-924B-C1D0CAFFD780",
+              "notes" : "out = x^y",
+              "benchPosition" : [
+                79.259765625,
+                119.947265625
+              ],
+              "benchOrdinal" : 5000,
+              "benchInteractivity" : "normal",
+              "name" : "Power",
+              "containerID" : "C5AF4D06-F386-466C-A575-9FF699D4E052"
+            },
+            "benchOffset" : [
+              -29.600341796875,
+              -2.4000244140625
+            ],
+            "isExpanded" : false
+          }
+        }
+      },
+      {
+        "splitter" : {
+          "_0" : {
+            "module" : {
+              "identifier" : "module.DLMGZXVK",
+              "colorIndex" : 27,
+              "parameters" : {
+                "mute" : 0
+              },
+              "id" : "E6C4FF33-E1E5-4A4E-BD33-1A62E87B5747",
+              "notes" : "",
+              "benchPosition" : [
+                -179.439453125,
+                -37.541015625
+              ],
+              "benchOrdinal" : 2000,
+              "benchInteractivity" : "normal",
+              "name" : "Splitter",
+              "containerID" : "C5AF4D06-F386-466C-A575-9FF699D4E052"
+            }
+          }
+        }
+      },
+      {
+        "constant" : {
+          "_0" : {
+            "module" : {
+              "identifier" : "module.TYBEYULZ",
+              "colorIndex" : 27,
+              "parameters" : {
+
+              },
+              "id" : "090C9547-95E1-4A31-ABA8-7BD8304FAF16",
+              "notes" : "",
+              "benchPosition" : [
+                4.892578125,
+                -39.740234375
+              ],
+              "benchOrdinal" : 13000,
+              "benchInteractivity" : "normal",
+              "name" : "K",
+              "containerID" : "C5AF4D06-F386-466C-A575-9FF699D4E052"
+            },
+            "value" : 0.5,
+            "source" : "custom"
+          }
+        }
+      },
+      {
+        "containerPorts" : {
+          "_0" : {
+            "module" : {
+              "identifier" : "container.ports.output",
+              "colorIndex" : 29,
+              "parameters" : {
+
+              },
+              "id" : "DB6B0B69-9ED7-4C1C-8063-842D2F3434E2",
+              "notes" : "",
+              "benchPosition" : [
+                222.7265625,
+                -25.625
+              ],
+              "benchOrdinal" : 0,
+              "benchInteractivity" : "normal",
+              "name" : "Outputs",
+              "containerID" : "69E3101E-8563-4176-94CB-0F5691FDA467"
+            },
+            "scope" : "output"
+          }
+        }
+      },
+      {
+        "scale" : {
+          "_0" : {
+            "module" : {
+              "identifier" : "module.QEXNSXPW",
+              "colorIndex" : 27,
+              "parameters" : {
+                "scale" : 1,
+                "bypass" : 0,
+                "mute" : 0
+              },
+              "id" : "0006C280-0219-4340-B0DF-B522C94F45C6",
+              "notes" : "",
+              "benchPosition" : [
+                191.072265625,
+                -35.365234375
+              ],
+              "benchOrdinal" : 16000,
+              "benchInteractivity" : "normal",
+              "name" : "Scale",
+              "containerID" : "C5AF4D06-F386-466C-A575-9FF699D4E052"
+            }
+          }
+        }
+      },
+      {
+        "multiply" : {
+          "_0" : {
+            "module" : {
+              "identifier" : "module.GNVPCDKQ",
+              "colorIndex" : 27,
+              "parameters" : {
+
+              },
+              "id" : "C7242FF1-5B6C-4B26-ACFD-2BABA35B5683",
+              "notes" : "",
+              "benchPosition" : [
+                -0.5859375,
+                -26.044921875
+              ],
+              "benchOrdinal" : 13000,
+              "benchInteractivity" : "normal",
+              "name" : "Multiply",
+              "containerID" : "35FC7866-0D16-4B14-924B-C1D0CAFFD780"
+            }
+          }
+        }
+      },
+      {
+        "containerPorts" : {
+          "_0" : {
+            "module" : {
+              "identifier" : "container.ports.output",
+              "colorIndex" : 29,
+              "parameters" : {
+
+              },
+              "id" : "F58EB9EE-B6F6-4CD4-ADB6-A639A8913EA2",
+              "notes" : "",
+              "benchPosition" : [
+                318.759765625,
+                -2.12109375
+              ],
+              "benchOrdinal" : 0,
+              "benchInteractivity" : "normal",
+              "name" : "Outputs",
+              "containerID" : "C5AF4D06-F386-466C-A575-9FF699D4E052"
+            },
+            "scope" : "output"
+          }
+        }
+      },
+      {
+        "log" : {
+          "_0" : {
+            "module" : {
+              "identifier" : "module.ENJQSETP",
+              "colorIndex" : 27,
+              "parameters" : {
+
+              },
+              "id" : "7BC64053-6BE4-45E3-888A-B4560259B5B9",
+              "notes" : "",
+              "benchPosition" : [
+                -103.36328125,
+                23.810546875
+              ],
+              "benchOrdinal" : 11000,
+              "benchInteractivity" : "normal",
+              "name" : "ln(x)",
+              "containerID" : "35FC7866-0D16-4B14-924B-C1D0CAFFD780"
+            }
+          }
+        }
+      },
+      {
+        "exp" : {
+          "_0" : {
+            "module" : {
+              "identifier" : "module.JSCGVBVV",
+              "colorIndex" : 27,
+              "parameters" : {
+
+              },
+              "id" : "91D61CFA-3560-4D29-B5F1-CC85EBC75855",
+              "notes" : "",
+              "benchPosition" : [
+                97.28515625,
+                -26.099609375
+              ],
+              "benchOrdinal" : 10000,
+              "benchInteractivity" : "normal",
+              "name" : "e^in",
+              "containerID" : "35FC7866-0D16-4B14-924B-C1D0CAFFD780"
+            }
+          }
+        }
+      },
+      {
+        "splitter" : {
+          "_0" : {
+            "module" : {
+              "identifier" : "module.SPBQAPUB",
+              "colorIndex" : 27,
+              "parameters" : {
+                "mute" : 0
+              },
+              "id" : "C6DCEAC3-AD6B-4028-A923-272F75EA98BF",
+              "notes" : "",
+              "benchPosition" : [
+                -178.810546875,
+                49.041015625
+              ],
+              "benchOrdinal" : 4000,
+              "benchInteractivity" : "normal",
+              "name" : "Splitter",
+              "containerID" : "C5AF4D06-F386-466C-A575-9FF699D4E052"
+            }
+          }
+        }
+      },
+      {
+        "negate" : {
+          "_0" : {
+            "module" : {
+              "identifier" : "module.BLTNCHTG",
+              "colorIndex" : 27,
+              "parameters" : {
+
+              },
+              "id" : "A7E9D11E-D901-40BE-9E47-5D18C3662C8B",
+              "notes" : "",
+              "benchPosition" : [
+                -43.228515625,
+                23.904296875
+              ],
+              "benchOrdinal" : 14000,
+              "benchInteractivity" : "normal",
+              "name" : "-Y",
+              "containerID" : "C08298D2-A146-470A-B914-F025423AD3F0"
+            }
+          }
+        }
+      },
+      {
+        "containerPorts" : {
+          "_0" : {
+            "module" : {
+              "identifier" : "container.ports.input",
+              "colorIndex" : 29,
+              "parameters" : {
+
+              },
+              "id" : "22C004EA-2CC3-4E7F-AC3A-9FB93E729FDF",
+              "notes" : "",
+              "benchPosition" : [
+                -316.751953125,
+                2.38671875
+              ],
+              "benchOrdinal" : 1000,
+              "benchInteractivity" : "normal",
+              "name" : "Inputs",
+              "containerID" : "C5AF4D06-F386-466C-A575-9FF699D4E052"
+            },
+            "scope" : "input"
+          }
+        }
+      },
+      {
+        "add" : {
+          "_0" : {
+            "module" : {
+              "identifier" : "module.WBTTFULA",
+              "colorIndex" : 27,
+              "parameters" : {
+
+              },
+              "id" : "2D5E832D-503D-4919-8035-3F7F51ED269A",
+              "notes" : "",
+              "benchPosition" : [
+                51.978515625,
+                -14.404296875
+              ],
+              "benchOrdinal" : 13000,
+              "benchInteractivity" : "normal",
+              "name" : "X + (-Y)",
+              "containerID" : "C08298D2-A146-470A-B914-F025423AD3F0"
+            }
+          }
+        }
+      },
+      {
+        "constant" : {
+          "_0" : {
+            "module" : {
+              "identifier" : "module.HSTKWQCB",
+              "colorIndex" : 27,
+              "parameters" : {
+
+              },
+              "id" : "016CD98F-55EE-492C-B2FE-22FD57BE4A80",
+              "notes" : "",
+              "benchPosition" : [
+                -117.970703125,
+                -162.541015625
+              ],
+              "benchOrdinal" : 10000,
+              "benchInteractivity" : "normal",
+              "name" : "K",
+              "containerID" : "C5AF4D06-F386-466C-A575-9FF699D4E052"
+            },
+            "value" : 1,
+            "source" : "custom"
+          }
+        }
+      },
+      {
+        "container" : {
+          "_0" : {
+            "module" : {
+              "identifier" : "module.TPRFIJAH",
+              "colorIndex" : 27,
+              "parameters" : {
+
+              },
+              "id" : "C5AF4D06-F386-466C-A575-9FF699D4E052",
+              "notes" : "",
+              "benchPosition" : [
+                70.501953125,
+                -93.626953125
+              ],
+              "benchOrdinal" : 0,
+              "benchInteractivity" : "normal",
+              "name" : "Pan",
+              "containerID" : "DEADBEEF-FEED-FACE-DEED-CAFEBABEFACE"
+            },
+            "benchOffset" : [
+              0,
+              0
+            ],
+            "isExpanded" : false
+          }
+        }
+      }
+    ],
+    "rootModuleIDs" : [
+      "C5AF4D06-F386-466C-A575-9FF699D4E052"
+    ],
+    "detents" : [
+
+    ]
+  }
+}

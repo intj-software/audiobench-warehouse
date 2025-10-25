@@ -1,0 +1,530 @@
+{
+  "source" : "factory",
+  "category" : 4,
+  "version" : "1.0.0",
+  "isDeleted" : false,
+  "overview" : "Outputs 1 only when both inputs match (both 1 or both 0).",
+  "author" : "AudioBench",
+  "identifier" : "90C0306C-2FFF-4371-905D-5D0BF3483B6E",
+  "keywords" : [
+      "boolean",
+      "equivalence",
+      "sameness",
+      "gate"
+  ],
+  "graph" : {
+    "rootModuleIDs" : [
+      "DB2E1BB3-6633-41AC-BE9C-53FBF7EC882F"
+    ],
+    "ports" : [
+      {
+        "scope" : "input",
+        "payload" : "scalar",
+        "ordinal" : 0,
+        "moduleID" : "1CD09785-67FB-4A96-9248-4241E0D71017",
+        "isTap" : false,
+        "id" : "7464C5DF-0076-4C52-B437-65855F3B4F60",
+        "identifier" : "input",
+        "label" : "In",
+        "connectedPortID" : "1EA16A5D-6553-49E0-A71B-6CC54AFCD6F4"
+      },
+      {
+        "scope" : "input",
+        "payload" : "scalar",
+        "ordinal" : 1000,
+        "moduleID" : "A9068F3B-DF00-439C-A3E3-C30694D392C3",
+        "isTap" : false,
+        "id" : "40E5BA76-AE19-4BCE-ADB2-162F3FA0DE4E",
+        "identifier" : "port.JTCDVIZM",
+        "label" : "B"
+      },
+      {
+        "scope" : "input",
+        "payload" : "any",
+        "ordinal" : 0,
+        "moduleID" : "124C0D14-0C9E-4A58-8B58-86E0B0C3EEF7",
+        "isTap" : false,
+        "id" : "F83F07F7-2CC6-4E8C-8946-8AFAE14CE8D7",
+        "identifier" : "input",
+        "label" : "In",
+        "connectedPortID" : "3E2E5FDA-2D64-4920-90F8-573BDDB98F78"
+      },
+      {
+        "scope" : "output",
+        "payload" : "scalar",
+        "ordinal" : 0,
+        "moduleID" : "E971D49C-4939-4416-89B2-B5AA173E3478",
+        "isTap" : false,
+        "id" : "1EA16A5D-6553-49E0-A71B-6CC54AFCD6F4",
+        "identifier" : "result",
+        "label" : "Out"
+      },
+      {
+        "scope" : "input",
+        "payload" : "scalar",
+        "ordinal" : 1000,
+        "moduleID" : "DF9316C6-B65F-49D8-BDCB-039AE4DF4078",
+        "isTap" : false,
+        "id" : "774ACEED-FA22-4EDA-AB2B-D20C06EE3C31",
+        "identifier" : "operandB",
+        "label" : "B",
+        "connectedPortID" : "388D9012-D5DA-4EDB-BF09-76EBECF4D725"
+      },
+      {
+        "scope" : "input",
+        "payload" : "scalar",
+        "ordinal" : 1000,
+        "moduleID" : "D36A71BB-AC37-420B-A06D-E4F3FDBB692A",
+        "isTap" : false,
+        "id" : "BB70D3B8-26E2-478E-A986-A738555F5040",
+        "identifier" : "operandB",
+        "label" : "B",
+        "connectedPortID" : "07C668D8-3F52-4368-9532-E41067CDAB14"
+      },
+      {
+        "scope" : "output",
+        "payload" : "any",
+        "ordinal" : 0,
+        "moduleID" : "1865FD7F-C537-4DD0-953B-D43A75CBA921",
+        "isTap" : false,
+        "id" : "388D9012-D5DA-4EDB-BF09-76EBECF4D725",
+        "identifier" : "output-1",
+        "label" : "Out1"
+      },
+      {
+        "scope" : "output",
+        "payload" : "scalar",
+        "ordinal" : 0,
+        "moduleID" : "742C4F14-9D6B-4B5B-B782-078558E60971",
+        "isTap" : false,
+        "id" : "6F2A77EF-9C5F-4D37-B702-F343D672EE1D",
+        "identifier" : "port.HHCKUIIF",
+        "label" : "Out"
+      },
+      {
+        "scope" : "input",
+        "payload" : "any",
+        "ordinal" : 0,
+        "moduleID" : "1865FD7F-C537-4DD0-953B-D43A75CBA921",
+        "isTap" : false,
+        "id" : "B56E2BD4-80EF-417A-B5AE-8586A5F5D30D",
+        "identifier" : "input",
+        "label" : "In",
+        "connectedPortID" : "507D5019-828A-4D64-A9D4-4C14BA4F4BED"
+      },
+      {
+        "scope" : "input",
+        "payload" : "scalar",
+        "ordinal" : 1000,
+        "moduleID" : "E971D49C-4939-4416-89B2-B5AA173E3478",
+        "isTap" : false,
+        "id" : "8E81FA89-DC4A-48A2-A3F8-6C355AB5BFAA",
+        "identifier" : "operandB",
+        "label" : "B",
+        "connectedPortID" : "898E69C8-6A0F-4935-A948-39CAB3F0820B"
+      },
+      {
+        "scope" : "input",
+        "payload" : "scalar",
+        "ordinal" : 0,
+        "moduleID" : "DF9316C6-B65F-49D8-BDCB-039AE4DF4078",
+        "isTap" : false,
+        "id" : "1FB54AD7-20B5-4822-BBEA-B0A3AFEDDAC4",
+        "identifier" : "operandA",
+        "label" : "A",
+        "connectedPortID" : "5B43D54B-B663-40F4-B38A-41CB5F9B9A89"
+      },
+      {
+        "scope" : "output",
+        "payload" : "scalar",
+        "ordinal" : 0,
+        "moduleID" : "DF9316C6-B65F-49D8-BDCB-039AE4DF4078",
+        "isTap" : false,
+        "id" : "A0D0B7BE-9DFF-4DC1-B994-A96FF44A00F5",
+        "identifier" : "result",
+        "label" : "Out"
+      },
+      {
+        "scope" : "output",
+        "payload" : "scalar",
+        "ordinal" : 0,
+        "moduleID" : "50656E99-A80C-49DC-83A8-5A69CF0CBE42",
+        "isTap" : false,
+        "id" : "898E69C8-6A0F-4935-A948-39CAB3F0820B",
+        "identifier" : "output",
+        "label" : "Out"
+      },
+      {
+        "scope" : "output",
+        "payload" : "scalar",
+        "ordinal" : 0,
+        "moduleID" : "A9068F3B-DF00-439C-A3E3-C30694D392C3",
+        "isTap" : false,
+        "id" : "3E2E5FDA-2D64-4920-90F8-573BDDB98F78",
+        "identifier" : "port.YTSYYIQW",
+        "label" : "A"
+      },
+      {
+        "scope" : "output",
+        "payload" : "scalar",
+        "ordinal" : 0,
+        "moduleID" : "1CD09785-67FB-4A96-9248-4241E0D71017",
+        "isTap" : false,
+        "id" : "5CC30C1D-7DD6-44F3-9D3D-C733BC939F5B",
+        "identifier" : "output",
+        "label" : "Out"
+      },
+      {
+        "scope" : "input",
+        "payload" : "scalar",
+        "ordinal" : 0,
+        "moduleID" : "A9068F3B-DF00-439C-A3E3-C30694D392C3",
+        "isTap" : false,
+        "id" : "872DE889-19FB-4E2C-8DB7-6EDF66E2D1C0",
+        "identifier" : "port.YTSYYIQW",
+        "label" : "A"
+      },
+      {
+        "scope" : "output",
+        "payload" : "scalar",
+        "ordinal" : 0,
+        "moduleID" : "D36A71BB-AC37-420B-A06D-E4F3FDBB692A",
+        "isTap" : false,
+        "id" : "B1BCFD2B-D2D6-4508-9270-969D7386F7D6",
+        "identifier" : "result",
+        "label" : "Out"
+      },
+      {
+        "scope" : "output",
+        "payload" : "any",
+        "ordinal" : 0,
+        "moduleID" : "124C0D14-0C9E-4A58-8B58-86E0B0C3EEF7",
+        "isTap" : false,
+        "id" : "5B43D54B-B663-40F4-B38A-41CB5F9B9A89",
+        "identifier" : "output-1",
+        "label" : "Out1"
+      },
+      {
+        "scope" : "input",
+        "payload" : "scalar",
+        "ordinal" : 0,
+        "moduleID" : "742C4F14-9D6B-4B5B-B782-078558E60971",
+        "isTap" : false,
+        "id" : "EC0B1A42-CAE0-4A73-BA88-8317AE3894B7",
+        "identifier" : "port.HHCKUIIF",
+        "label" : "Out",
+        "connectedPortID" : "5CC30C1D-7DD6-44F3-9D3D-C733BC939F5B"
+      },
+      {
+        "scope" : "input",
+        "payload" : "scalar",
+        "ordinal" : 0,
+        "moduleID" : "E971D49C-4939-4416-89B2-B5AA173E3478",
+        "isTap" : false,
+        "id" : "60AF99A9-F787-49E0-A8C1-D9F3EFF4F043",
+        "identifier" : "operandA",
+        "label" : "A",
+        "connectedPortID" : "A0D0B7BE-9DFF-4DC1-B994-A96FF44A00F5"
+      },
+      {
+        "scope" : "input",
+        "payload" : "scalar",
+        "ordinal" : 0,
+        "moduleID" : "D36A71BB-AC37-420B-A06D-E4F3FDBB692A",
+        "isTap" : false,
+        "id" : "F93B6646-9266-4C57-8F59-71C3F3D06A7F",
+        "identifier" : "operandA",
+        "label" : "A",
+        "connectedPortID" : "507C4961-AB3E-4649-A626-8966DF0B6453"
+      },
+      {
+        "scope" : "input",
+        "payload" : "scalar",
+        "ordinal" : 0,
+        "moduleID" : "50656E99-A80C-49DC-83A8-5A69CF0CBE42",
+        "isTap" : false,
+        "id" : "73B2AE68-A978-4F65-AC4A-50225A1B37C4",
+        "identifier" : "input",
+        "label" : "In",
+        "connectedPortID" : "B1BCFD2B-D2D6-4508-9270-969D7386F7D6"
+      },
+      {
+        "scope" : "output",
+        "payload" : "any",
+        "ordinal" : 1000,
+        "moduleID" : "1865FD7F-C537-4DD0-953B-D43A75CBA921",
+        "isTap" : false,
+        "id" : "07C668D8-3F52-4368-9532-E41067CDAB14",
+        "identifier" : "output-2",
+        "label" : "Out2"
+      },
+      {
+        "scope" : "output",
+        "payload" : "any",
+        "ordinal" : 1000,
+        "moduleID" : "124C0D14-0C9E-4A58-8B58-86E0B0C3EEF7",
+        "isTap" : false,
+        "id" : "507C4961-AB3E-4649-A626-8966DF0B6453",
+        "identifier" : "output-2",
+        "label" : "Out2"
+      },
+      {
+        "scope" : "output",
+        "payload" : "scalar",
+        "ordinal" : 1000,
+        "moduleID" : "A9068F3B-DF00-439C-A3E3-C30694D392C3",
+        "isTap" : false,
+        "id" : "507D5019-828A-4D64-A9D4-4C14BA4F4BED",
+        "identifier" : "port.JTCDVIZM",
+        "label" : "B"
+      }
+    ],
+    "detents" : [
+
+    ],
+    "modules" : [
+      {
+        "not" : {
+          "_0" : {
+            "module" : {
+              "name" : "Not",
+              "benchPosition" : [
+                54.486328125,
+                97.94921875
+              ],
+              "benchOrdinal" : 3000,
+              "benchInteractivity" : "normal",
+              "notes" : "",
+              "parameters" : {
+
+              },
+              "id" : "50656E99-A80C-49DC-83A8-5A69CF0CBE42",
+              "identifier" : "module.DDQKPNSG",
+              "colorIndex" : 27,
+              "containerID" : "DB2E1BB3-6633-41AC-BE9C-53FBF7EC882F"
+            }
+          }
+        }
+      },
+      {
+        "container" : {
+          "_0" : {
+            "isExpanded" : false,
+            "benchOffset" : [
+              -36.80029296875,
+              -38.80010986328125
+            ],
+            "module" : {
+              "name" : "NXOR",
+              "benchPosition" : [
+                -94.248046875,
+                158.13671875
+              ],
+              "benchOrdinal" : 7000,
+              "benchInteractivity" : "normal",
+              "notes" : "",
+              "parameters" : {
+
+              },
+              "id" : "DB2E1BB3-6633-41AC-BE9C-53FBF7EC882F",
+              "identifier" : "module.SBSGJXTP",
+              "colorIndex" : 27,
+              "containerID" : "DEADBEEF-FEED-FACE-DEED-CAFEBABEFACE"
+            }
+          }
+        }
+      },
+      {
+        "containerPorts" : {
+          "_0" : {
+            "scope" : "output",
+            "module" : {
+              "name" : "Outputs",
+              "benchPosition" : [
+                327.052734375,
+                36.859375
+              ],
+              "benchOrdinal" : 0,
+              "benchInteractivity" : "normal",
+              "notes" : "",
+              "parameters" : {
+
+              },
+              "id" : "742C4F14-9D6B-4B5B-B782-078558E60971",
+              "identifier" : "container.ports.output",
+              "colorIndex" : 29,
+              "containerID" : "DB2E1BB3-6633-41AC-BE9C-53FBF7EC882F"
+            }
+          }
+        }
+      },
+      {
+        "not" : {
+          "_0" : {
+            "module" : {
+              "name" : "Not",
+              "benchPosition" : [
+                234.349609375,
+                37.91796875
+              ],
+              "benchOrdinal" : 10000,
+              "benchInteractivity" : "normal",
+              "notes" : "",
+              "parameters" : {
+
+              },
+              "id" : "1CD09785-67FB-4A96-9248-4241E0D71017",
+              "identifier" : "module.DDQKPNSG",
+              "colorIndex" : 27,
+              "containerID" : "DB2E1BB3-6633-41AC-BE9C-53FBF7EC882F"
+            }
+          }
+        }
+      },
+      {
+        "containerPorts" : {
+          "_0" : {
+            "scope" : "input",
+            "module" : {
+              "name" : "Inputs",
+              "benchPosition" : [
+                -261.091796875,
+                47.55078125
+              ],
+              "benchOrdinal" : 1000,
+              "benchInteractivity" : "normal",
+              "notes" : "",
+              "parameters" : {
+
+              },
+              "id" : "A9068F3B-DF00-439C-A3E3-C30694D392C3",
+              "identifier" : "container.ports.input",
+              "colorIndex" : 29,
+              "containerID" : "DB2E1BB3-6633-41AC-BE9C-53FBF7EC882F"
+            }
+          }
+        }
+      },
+      {
+        "splitter" : {
+          "_0" : {
+            "module" : {
+              "name" : "Splitter",
+              "benchPosition" : [
+                -151.28955078125,
+                5.50714111328125
+              ],
+              "benchOrdinal" : 7000,
+              "benchInteractivity" : "normal",
+              "notes" : "",
+              "parameters" : {
+                "mute" : 0
+              },
+              "id" : "124C0D14-0C9E-4A58-8B58-86E0B0C3EEF7",
+              "identifier" : "module.UCVLBQBH",
+              "colorIndex" : 27,
+              "containerID" : "DB2E1BB3-6633-41AC-BE9C-53FBF7EC882F"
+            }
+          }
+        }
+      },
+      {
+        "and" : {
+          "_0" : {
+            "module" : {
+              "name" : "And",
+              "benchPosition" : [
+                150.28857421875,
+                38.81964111328125
+              ],
+              "benchOrdinal" : 6000,
+              "benchInteractivity" : "normal",
+              "notes" : "",
+              "parameters" : {
+                "operandA" : 0,
+                "operandB" : 1
+              },
+              "id" : "E971D49C-4939-4416-89B2-B5AA173E3478",
+              "identifier" : "module.OWPXRURH",
+              "colorIndex" : 27,
+              "containerID" : "DB2E1BB3-6633-41AC-BE9C-53FBF7EC882F"
+            }
+          }
+        }
+      },
+      {
+        "splitter" : {
+          "_0" : {
+            "module" : {
+              "name" : "Splitter",
+              "benchPosition" : [
+                -151.00439453125,
+                97.93682861328125
+              ],
+              "benchOrdinal" : 8000,
+              "benchInteractivity" : "normal",
+              "notes" : "",
+              "parameters" : {
+                "mute" : 0
+              },
+              "id" : "1865FD7F-C537-4DD0-953B-D43A75CBA921",
+              "identifier" : "module.YEWFOQUF",
+              "colorIndex" : 27,
+              "containerID" : "DB2E1BB3-6633-41AC-BE9C-53FBF7EC882F"
+            }
+          }
+        }
+      },
+      {
+        "or" : {
+          "_0" : {
+            "module" : {
+              "name" : "Or",
+              "benchPosition" : [
+                -36.73095703125,
+                1.63214111328125
+              ],
+              "benchOrdinal" : 4000,
+              "benchInteractivity" : "normal",
+              "notes" : "",
+              "parameters" : {
+                "operandB" : 1,
+                "operandA" : 0
+              },
+              "id" : "DF9316C6-B65F-49D8-BDCB-039AE4DF4078",
+              "identifier" : "module.DFOXDMAC",
+              "colorIndex" : 27,
+              "containerID" : "DB2E1BB3-6633-41AC-BE9C-53FBF7EC882F"
+            }
+          }
+        }
+      },
+      {
+        "and" : {
+          "_0" : {
+            "module" : {
+              "name" : "And",
+              "benchPosition" : [
+                -34.07470703125,
+                98.64385986328125
+              ],
+              "benchOrdinal" : 5000,
+              "benchInteractivity" : "normal",
+              "notes" : "",
+              "parameters" : {
+                "operandB" : 1,
+                "operandA" : 0
+              },
+              "id" : "D36A71BB-AC37-420B-A06D-E4F3FDBB692A",
+              "identifier" : "module.QZPMAGCC",
+              "colorIndex" : 27,
+              "containerID" : "DB2E1BB3-6633-41AC-BE9C-53FBF7EC882F"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "details" : "Also known as “XNOR” or “equivalence,” this gate produces NOT(XOR(A, B)). It’s true when inputs are equal, making it valuable for synchronization checks, match detection, or any case where parity or symmetry between signals is needed.",
+  "title" : "Nxor"
+}

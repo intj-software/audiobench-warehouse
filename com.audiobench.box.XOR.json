@@ -1,0 +1,487 @@
+{
+  "category" : 4,
+  "identifier" : "4EFADB96-895E-4ECC-92F7-1D8742975095",
+  "graph" : {
+    "detents" : [
+
+    ],
+    "modules" : [
+      {
+        "splitter" : {
+          "_0" : {
+            "module" : {
+              "identifier" : "module.YEWFOQUF",
+              "parameters" : {
+                "mute" : 0
+              },
+              "benchInteractivity" : "normal",
+              "name" : "Splitter",
+              "notes" : "",
+              "benchOrdinal" : 8000,
+              "benchPosition" : [
+                -151.00439453125,
+                97.93682861328125
+              ],
+              "id" : "4133EB23-59AA-4061-9B19-5D18E6A928DA",
+              "colorIndex" : 27,
+              "containerID" : "985B5EE5-CEE2-400E-8CD4-5AD9DE4C8BA2"
+            }
+          }
+        }
+      },
+      {
+        "or" : {
+          "_0" : {
+            "module" : {
+              "identifier" : "module.DFOXDMAC",
+              "parameters" : {
+                "operandA" : 0,
+                "operandB" : 1
+              },
+              "benchInteractivity" : "normal",
+              "name" : "Or",
+              "notes" : "",
+              "benchOrdinal" : 4000,
+              "benchPosition" : [
+                -36.73095703125,
+                1.63214111328125
+              ],
+              "id" : "C1299AF4-0396-45FF-A537-6305FF383EC9",
+              "colorIndex" : 27,
+              "containerID" : "985B5EE5-CEE2-400E-8CD4-5AD9DE4C8BA2"
+            }
+          }
+        }
+      },
+      {
+        "splitter" : {
+          "_0" : {
+            "module" : {
+              "identifier" : "module.UCVLBQBH",
+              "parameters" : {
+                "mute" : 0
+              },
+              "benchInteractivity" : "normal",
+              "name" : "Splitter",
+              "notes" : "",
+              "benchOrdinal" : 7000,
+              "benchPosition" : [
+                -151.28955078125,
+                5.50714111328125
+              ],
+              "id" : "2572682B-DCEB-4277-9491-317CFACD3FE5",
+              "colorIndex" : 27,
+              "containerID" : "985B5EE5-CEE2-400E-8CD4-5AD9DE4C8BA2"
+            }
+          }
+        }
+      },
+      {
+        "not" : {
+          "_0" : {
+            "module" : {
+              "identifier" : "module.DDQKPNSG",
+              "parameters" : {
+
+              },
+              "benchInteractivity" : "normal",
+              "name" : "Not",
+              "notes" : "",
+              "benchOrdinal" : 3000,
+              "benchPosition" : [
+                54.486328125,
+                97.94921875
+              ],
+              "id" : "B41C98B7-0F7F-4359-BC14-1082482C2A67",
+              "colorIndex" : 27,
+              "containerID" : "985B5EE5-CEE2-400E-8CD4-5AD9DE4C8BA2"
+            }
+          }
+        }
+      },
+      {
+        "container" : {
+          "_0" : {
+            "isExpanded" : false,
+            "module" : {
+              "identifier" : "module.SBSGJXTP",
+              "parameters" : {
+
+              },
+              "benchInteractivity" : "normal",
+              "name" : "XOR",
+              "notes" : "",
+              "benchOrdinal" : 5000,
+              "benchPosition" : [
+                -66.408203125,
+                13.55078125
+              ],
+              "id" : "985B5EE5-CEE2-400E-8CD4-5AD9DE4C8BA2",
+              "colorIndex" : 27,
+              "containerID" : "DEADBEEF-FEED-FACE-DEED-CAFEBABEFACE"
+            },
+            "benchOffset" : [
+              -36.80029296875,
+              -38.80010986328125
+            ]
+          }
+        }
+      },
+      {
+        "containerPorts" : {
+          "_0" : {
+            "module" : {
+              "identifier" : "container.ports.input",
+              "parameters" : {
+
+              },
+              "benchInteractivity" : "normal",
+              "name" : "Inputs",
+              "notes" : "",
+              "benchOrdinal" : 1000,
+              "benchPosition" : [
+                -261.091796875,
+                47.55078125
+              ],
+              "id" : "FE1724A0-4227-4AA7-AE4E-C9CFEDEE2198",
+              "colorIndex" : 29,
+              "containerID" : "985B5EE5-CEE2-400E-8CD4-5AD9DE4C8BA2"
+            },
+            "scope" : "input"
+          }
+        }
+      },
+      {
+        "containerPorts" : {
+          "_0" : {
+            "module" : {
+              "identifier" : "container.ports.output",
+              "parameters" : {
+
+              },
+              "benchInteractivity" : "normal",
+              "name" : "Outputs",
+              "notes" : "",
+              "benchOrdinal" : 0,
+              "benchPosition" : [
+                251.599609375,
+                36.859375
+              ],
+              "id" : "0AD22D4E-B78A-40A8-828B-B72FA1BE7A68",
+              "colorIndex" : 29,
+              "containerID" : "985B5EE5-CEE2-400E-8CD4-5AD9DE4C8BA2"
+            },
+            "scope" : "output"
+          }
+        }
+      },
+      {
+        "and" : {
+          "_0" : {
+            "module" : {
+              "identifier" : "module.OWPXRURH",
+              "parameters" : {
+                "operandA" : 0,
+                "operandB" : 1
+              },
+              "benchInteractivity" : "normal",
+              "name" : "And",
+              "notes" : "",
+              "benchOrdinal" : 6000,
+              "benchPosition" : [
+                150.28857421875,
+                38.81964111328125
+              ],
+              "id" : "EDF0B37F-569D-4F89-9474-5CB1CBA57885",
+              "colorIndex" : 27,
+              "containerID" : "985B5EE5-CEE2-400E-8CD4-5AD9DE4C8BA2"
+            }
+          }
+        }
+      },
+      {
+        "and" : {
+          "_0" : {
+            "module" : {
+              "identifier" : "module.QZPMAGCC",
+              "parameters" : {
+                "operandA" : 0,
+                "operandB" : 1
+              },
+              "benchInteractivity" : "normal",
+              "name" : "And",
+              "notes" : "",
+              "benchOrdinal" : 5000,
+              "benchPosition" : [
+                -34.07470703125,
+                98.64385986328125
+              ],
+              "id" : "6144E043-7DC2-4CAA-8836-3AF3986EE7B6",
+              "colorIndex" : 27,
+              "containerID" : "985B5EE5-CEE2-400E-8CD4-5AD9DE4C8BA2"
+            }
+          }
+        }
+      }
+    ],
+    "ports" : [
+      {
+        "identifier" : "output-1",
+        "payload" : "any",
+        "isTap" : false,
+        "moduleID" : "4133EB23-59AA-4061-9B19-5D18E6A928DA",
+        "scope" : "output",
+        "label" : "Out1",
+        "id" : "3CFD8BCC-2006-4418-A881-65A2270C6A00",
+        "ordinal" : 0
+      },
+      {
+        "identifier" : "result",
+        "payload" : "scalar",
+        "isTap" : false,
+        "moduleID" : "EDF0B37F-569D-4F89-9474-5CB1CBA57885",
+        "scope" : "output",
+        "label" : "Out",
+        "id" : "618A08E0-F4D9-4234-B391-2E7F3EB872C3",
+        "ordinal" : 0
+      },
+      {
+        "identifier" : "port.HHCKUIIF",
+        "payload" : "scalar",
+        "isTap" : false,
+        "moduleID" : "0AD22D4E-B78A-40A8-828B-B72FA1BE7A68",
+        "scope" : "output",
+        "label" : "Out",
+        "id" : "7A0C0A05-257E-4D03-A640-542176697AC5",
+        "ordinal" : 0
+      },
+      {
+        "identifier" : "port.HHCKUIIF",
+        "payload" : "scalar",
+        "isTap" : false,
+        "moduleID" : "0AD22D4E-B78A-40A8-828B-B72FA1BE7A68",
+        "connectedPortID" : "618A08E0-F4D9-4234-B391-2E7F3EB872C3",
+        "scope" : "input",
+        "label" : "Out",
+        "id" : "AF9ABDD2-7D2E-4633-9F25-029F4379C7B4",
+        "ordinal" : 0
+      },
+      {
+        "identifier" : "result",
+        "payload" : "scalar",
+        "isTap" : false,
+        "moduleID" : "C1299AF4-0396-45FF-A537-6305FF383EC9",
+        "scope" : "output",
+        "label" : "Out",
+        "id" : "AAC1F134-A1A8-4E7E-9828-D3CFB08A3929",
+        "ordinal" : 0
+      },
+      {
+        "identifier" : "port.YTSYYIQW",
+        "payload" : "scalar",
+        "isTap" : false,
+        "moduleID" : "FE1724A0-4227-4AA7-AE4E-C9CFEDEE2198",
+        "scope" : "output",
+        "label" : "A",
+        "id" : "1E461B79-DA84-44E6-9886-D6CCDD5A2FD3",
+        "ordinal" : 0
+      },
+      {
+        "identifier" : "input",
+        "payload" : "any",
+        "isTap" : false,
+        "moduleID" : "4133EB23-59AA-4061-9B19-5D18E6A928DA",
+        "connectedPortID" : "23090F1A-CA39-4BDC-BBBE-8D2128913A70",
+        "scope" : "input",
+        "label" : "In",
+        "id" : "1972A5A1-42BE-4584-B6F3-3838A2061EB6",
+        "ordinal" : 0
+      },
+      {
+        "identifier" : "operandB",
+        "payload" : "scalar",
+        "isTap" : false,
+        "moduleID" : "6144E043-7DC2-4CAA-8836-3AF3986EE7B6",
+        "connectedPortID" : "092F8446-B225-4F71-A2B2-F0CF1BB84EA5",
+        "scope" : "input",
+        "label" : "B",
+        "id" : "37714C00-E820-407C-AC84-86D16A0A3ECE",
+        "ordinal" : 1000
+      },
+      {
+        "identifier" : "port.JTCDVIZM",
+        "payload" : "scalar",
+        "isTap" : false,
+        "moduleID" : "FE1724A0-4227-4AA7-AE4E-C9CFEDEE2198",
+        "scope" : "output",
+        "label" : "B",
+        "id" : "23090F1A-CA39-4BDC-BBBE-8D2128913A70",
+        "ordinal" : 1000
+      },
+      {
+        "identifier" : "output-2",
+        "payload" : "any",
+        "isTap" : false,
+        "moduleID" : "2572682B-DCEB-4277-9491-317CFACD3FE5",
+        "scope" : "output",
+        "label" : "Out2",
+        "id" : "0F7CB7EA-FA14-4DA7-A8EF-1DD4357F007B",
+        "ordinal" : 1000
+      },
+      {
+        "identifier" : "operandB",
+        "payload" : "scalar",
+        "isTap" : false,
+        "moduleID" : "C1299AF4-0396-45FF-A537-6305FF383EC9",
+        "connectedPortID" : "3CFD8BCC-2006-4418-A881-65A2270C6A00",
+        "scope" : "input",
+        "label" : "B",
+        "id" : "65A06382-D808-435F-AE95-959ACDDFB25A",
+        "ordinal" : 1000
+      },
+      {
+        "identifier" : "operandA",
+        "payload" : "scalar",
+        "isTap" : false,
+        "moduleID" : "6144E043-7DC2-4CAA-8836-3AF3986EE7B6",
+        "connectedPortID" : "0F7CB7EA-FA14-4DA7-A8EF-1DD4357F007B",
+        "scope" : "input",
+        "label" : "A",
+        "id" : "99308CBC-1B94-4323-92EB-F4669505AD92",
+        "ordinal" : 0
+      },
+      {
+        "identifier" : "port.YTSYYIQW",
+        "payload" : "scalar",
+        "isTap" : false,
+        "moduleID" : "FE1724A0-4227-4AA7-AE4E-C9CFEDEE2198",
+        "scope" : "input",
+        "label" : "A",
+        "id" : "8056A897-F275-418C-BD0B-A52B5DAF4D91",
+        "ordinal" : 0
+      },
+      {
+        "identifier" : "output-2",
+        "payload" : "any",
+        "isTap" : false,
+        "moduleID" : "4133EB23-59AA-4061-9B19-5D18E6A928DA",
+        "scope" : "output",
+        "label" : "Out2",
+        "id" : "092F8446-B225-4F71-A2B2-F0CF1BB84EA5",
+        "ordinal" : 1000
+      },
+      {
+        "identifier" : "operandB",
+        "payload" : "scalar",
+        "isTap" : false,
+        "moduleID" : "EDF0B37F-569D-4F89-9474-5CB1CBA57885",
+        "connectedPortID" : "EAF15FCC-0082-433B-B8AE-8C4F28444762",
+        "scope" : "input",
+        "label" : "B",
+        "id" : "A0372AC8-3DAC-43FB-8DEE-C46939FDBD76",
+        "ordinal" : 1000
+      },
+      {
+        "identifier" : "operandA",
+        "payload" : "scalar",
+        "isTap" : false,
+        "moduleID" : "EDF0B37F-569D-4F89-9474-5CB1CBA57885",
+        "connectedPortID" : "AAC1F134-A1A8-4E7E-9828-D3CFB08A3929",
+        "scope" : "input",
+        "label" : "A",
+        "id" : "11C44CEE-FAE5-451D-814D-B319B857EBCF",
+        "ordinal" : 0
+      },
+      {
+        "identifier" : "operandA",
+        "payload" : "scalar",
+        "isTap" : false,
+        "moduleID" : "C1299AF4-0396-45FF-A537-6305FF383EC9",
+        "connectedPortID" : "59A4044A-8AE9-41E6-A34D-4E1D477A2E5B",
+        "scope" : "input",
+        "label" : "A",
+        "id" : "D6D856C5-8478-4245-8638-7479B9668151",
+        "ordinal" : 0
+      },
+      {
+        "identifier" : "result",
+        "payload" : "scalar",
+        "isTap" : false,
+        "moduleID" : "6144E043-7DC2-4CAA-8836-3AF3986EE7B6",
+        "scope" : "output",
+        "label" : "Out",
+        "id" : "F774DCCD-759E-4531-9CC7-05CA965BA095",
+        "ordinal" : 0
+      },
+      {
+        "identifier" : "input",
+        "payload" : "scalar",
+        "isTap" : false,
+        "moduleID" : "B41C98B7-0F7F-4359-BC14-1082482C2A67",
+        "connectedPortID" : "F774DCCD-759E-4531-9CC7-05CA965BA095",
+        "scope" : "input",
+        "label" : "In",
+        "id" : "09F11081-20E7-4413-ACE1-68A0838A33CC",
+        "ordinal" : 0
+      },
+      {
+        "identifier" : "output-1",
+        "payload" : "any",
+        "isTap" : false,
+        "moduleID" : "2572682B-DCEB-4277-9491-317CFACD3FE5",
+        "scope" : "output",
+        "label" : "Out1",
+        "id" : "59A4044A-8AE9-41E6-A34D-4E1D477A2E5B",
+        "ordinal" : 0
+      },
+      {
+        "identifier" : "input",
+        "payload" : "any",
+        "isTap" : false,
+        "moduleID" : "2572682B-DCEB-4277-9491-317CFACD3FE5",
+        "connectedPortID" : "1E461B79-DA84-44E6-9886-D6CCDD5A2FD3",
+        "scope" : "input",
+        "label" : "In",
+        "id" : "6C0338B7-8EE4-474C-BD4E-723A8B8003B2",
+        "ordinal" : 0
+      },
+      {
+        "identifier" : "output",
+        "payload" : "scalar",
+        "isTap" : false,
+        "moduleID" : "B41C98B7-0F7F-4359-BC14-1082482C2A67",
+        "scope" : "output",
+        "label" : "Out",
+        "id" : "EAF15FCC-0082-433B-B8AE-8C4F28444762",
+        "ordinal" : 0
+      },
+      {
+        "identifier" : "port.JTCDVIZM",
+        "payload" : "scalar",
+        "isTap" : false,
+        "moduleID" : "FE1724A0-4227-4AA7-AE4E-C9CFEDEE2198",
+        "scope" : "input",
+        "label" : "B",
+        "id" : "34B4470B-C8D0-4602-A9D4-961D3D7E1940",
+        "ordinal" : 1000
+      }
+    ],
+    "rootModuleIDs" : [
+      "985B5EE5-CEE2-400E-8CD4-5AD9DE4C8BA2"
+    ]
+  },
+  "author" : "AudioBench",
+  "version" : "1.0.0",
+  "isDeleted" : false,
+  "details" : "Outputs 1 only when exactly one input is 1.",
+  "keywords" : [
+      "boolean",
+      "exclusive",
+      "difference",
+      "comparator",
+      "gate"
+  ],
+  "overview" : "The XOR (“exclusive OR”) gate detects input inequality. It evaluates (A OR B) AND NOT(A AND B). When used in control systems, it can detect toggles or mismatched states — useful for phase inversion, conditional modulation, or change detection between control signals.",
+  "source" : "factory",
+  "title" : "Xor"
+}

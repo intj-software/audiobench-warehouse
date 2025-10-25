@@ -1,0 +1,277 @@
+{
+  "details" : "The Divide module takes two input values and outputs the result of dividing the first value by the second. It is useful for scaling, ratio calculations, or any arithmetic operation requiring division.",
+  "version" : "1.0.0",
+  "author" : "AudioBench",
+  "isDeleted" : false,
+  "keywords" : [
+      "ratio",
+      "quotient",
+      "arithmetic",
+      "math",
+      "scaling",
+      "normalize",
+      "gain",
+      "reciprocal",
+      "inverse",
+      "signal",
+      "control",
+      "processor",
+      "calculation",
+      "continuous"
+  ],
+  "graph" : {
+    "ports" : [
+      {
+        "id" : "12E1242E-3A75-4F03-84CD-4462E92266AE",
+        "ordinal" : 1000,
+        "payload" : "scalar",
+        "scope" : "input",
+        "identifier" : "port.UYJVQBPJ",
+        "label" : "Y",
+        "moduleID" : "574CAA52-5A96-48D0-AE62-BDEE0ED2C256",
+        "isTap" : false,
+        "connectedPortID" : "3BC389FF-E785-421C-A09F-8F66BF601962"
+      },
+      {
+        "id" : "091B7B42-EEBB-45A3-90D3-FCBBCBA70871",
+        "ordinal" : 0,
+        "payload" : "scalar",
+        "scope" : "input",
+        "identifier" : "input-1",
+        "label" : "I1",
+        "moduleID" : "10EF7F21-0036-4AA5-B55F-8709745A2128",
+        "isTap" : false,
+        "connectedPortID" : "1862E402-4A51-4074-9784-53286F292F3C"
+      },
+      {
+        "id" : "124B10BF-D518-4B6D-A7F9-53DD95BE47BD",
+        "ordinal" : 1000,
+        "payload" : "scalar",
+        "scope" : "output",
+        "identifier" : "port.UYJVQBPJ",
+        "label" : "Y",
+        "moduleID" : "574CAA52-5A96-48D0-AE62-BDEE0ED2C256",
+        "isTap" : false
+      },
+      {
+        "id" : "86EAFB84-6981-476D-96A4-04DF82E45F44",
+        "ordinal" : 0,
+        "payload" : "scalar",
+        "scope" : "output",
+        "identifier" : "output",
+        "label" : "Out",
+        "moduleID" : "10EF7F21-0036-4AA5-B55F-8709745A2128",
+        "isTap" : false
+      },
+      {
+        "id" : "1862E402-4A51-4074-9784-53286F292F3C",
+        "ordinal" : 0,
+        "payload" : "scalar",
+        "scope" : "output",
+        "identifier" : "port.RFIPGMWJ",
+        "label" : "X",
+        "moduleID" : "574CAA52-5A96-48D0-AE62-BDEE0ED2C256",
+        "isTap" : false
+      },
+      {
+        "id" : "14E18168-DE6E-4A72-B2A4-EE9DEA8F3572",
+        "ordinal" : 0,
+        "payload" : "scalar",
+        "scope" : "input",
+        "identifier" : "input",
+        "label" : "In",
+        "moduleID" : "FAD61327-F3A3-4610-990C-FB41425FE1E7",
+        "isTap" : false,
+        "connectedPortID" : "124B10BF-D518-4B6D-A7F9-53DD95BE47BD"
+      },
+      {
+        "id" : "ED37751F-22D8-408C-84E9-7466B647B0D2",
+        "ordinal" : 0,
+        "payload" : "scalar",
+        "scope" : "input",
+        "identifier" : "port.RFIPGMWJ",
+        "label" : "X",
+        "moduleID" : "574CAA52-5A96-48D0-AE62-BDEE0ED2C256",
+        "isTap" : false,
+        "connectedPortID" : "7EDAC4B7-0BA3-453F-92C9-B5CCEE5200F9"
+      },
+      {
+        "id" : "8C1E63C5-6028-4CC3-A9EF-66D154C24091",
+        "ordinal" : 0,
+        "payload" : "scalar",
+        "scope" : "input",
+        "identifier" : "port.BTRJVMYE",
+        "label" : "Out",
+        "moduleID" : "4B2F3DBC-33D6-4578-878F-287B91869221",
+        "isTap" : false,
+        "connectedPortID" : "86EAFB84-6981-476D-96A4-04DF82E45F44"
+      },
+      {
+        "id" : "43E61DC3-A7FA-4789-BB0E-2ED1B2EBBE33",
+        "ordinal" : 0,
+        "payload" : "scalar",
+        "scope" : "output",
+        "identifier" : "port.BTRJVMYE",
+        "label" : "Out",
+        "moduleID" : "4B2F3DBC-33D6-4578-878F-287B91869221",
+        "isTap" : false
+      },
+      {
+        "id" : "95499CB5-A86E-4E54-A1FC-730A9B099222",
+        "ordinal" : 0,
+        "payload" : "scalar",
+        "scope" : "output",
+        "identifier" : "output",
+        "label" : "Out",
+        "moduleID" : "FAD61327-F3A3-4610-990C-FB41425FE1E7",
+        "isTap" : false
+      },
+      {
+        "id" : "AB80FC57-26E8-4247-9A45-A4E7147A0680",
+        "ordinal" : 1000,
+        "payload" : "scalar",
+        "scope" : "input",
+        "identifier" : "input-2",
+        "label" : "I2",
+        "moduleID" : "10EF7F21-0036-4AA5-B55F-8709745A2128",
+        "isTap" : false,
+        "connectedPortID" : "95499CB5-A86E-4E54-A1FC-730A9B099222"
+      }
+    ],
+    "detents" : [
+
+    ],
+    "rootModuleIDs" : [
+      "6FB5BD33-9EF7-4B62-871F-459FB562D715"
+    ],
+    "modules" : [
+      {
+        "multiply" : {
+          "_0" : {
+            "module" : {
+              "id" : "10EF7F21-0036-4AA5-B55F-8709745A2128",
+              "benchPosition" : [
+                72.716796875,
+                -17.986328125
+              ],
+              "benchInteractivity" : "normal",
+              "parameters" : {
+
+              },
+              "colorIndex" : 27,
+              "containerID" : "6FB5BD33-9EF7-4B62-871F-459FB562D715",
+              "name" : "I1 x (1 \/ I2)",
+              "identifier" : "module.AAQAFJGU",
+              "benchOrdinal" : 13000,
+              "notes" : ""
+            }
+          }
+        }
+      },
+      {
+        "containerPorts" : {
+          "_0" : {
+            "scope" : "input",
+            "module" : {
+              "id" : "574CAA52-5A96-48D0-AE62-BDEE0ED2C256",
+              "benchPosition" : [
+                -147.373046875,
+                -16.6796875
+              ],
+              "benchInteractivity" : "normal",
+              "parameters" : {
+
+              },
+              "colorIndex" : 29,
+              "containerID" : "6FB5BD33-9EF7-4B62-871F-459FB562D715",
+              "name" : "Inputs",
+              "identifier" : "container.ports.input",
+              "benchOrdinal" : 1000,
+              "notes" : ""
+            }
+          }
+        }
+      },
+      {
+        "containerPorts" : {
+          "_0" : {
+            "scope" : "output",
+            "module" : {
+              "id" : "4B2F3DBC-33D6-4578-878F-287B91869221",
+              "benchPosition" : [
+                202.728515625,
+                -16.9375
+              ],
+              "benchInteractivity" : "normal",
+              "parameters" : {
+
+              },
+              "colorIndex" : 29,
+              "containerID" : "6FB5BD33-9EF7-4B62-871F-459FB562D715",
+              "name" : "Outputs",
+              "identifier" : "container.ports.output",
+              "benchOrdinal" : 0,
+              "notes" : ""
+            }
+          }
+        }
+      },
+      {
+        "container" : {
+          "_0" : {
+            "module" : {
+              "id" : "6FB5BD33-9EF7-4B62-871F-459FB562D715",
+              "benchPosition" : [
+                -224.68206787109375,
+                190.59490966796875
+              ],
+              "benchInteractivity" : "normal",
+              "parameters" : {
+
+              },
+              "colorIndex" : 27,
+              "containerID" : "DEADBEEF-FEED-FACE-DEED-CAFEBABEFACE",
+              "name" : "Divide",
+              "identifier" : "module.EGLLASTA",
+              "benchOrdinal" : 0,
+              "notes" : ""
+            },
+            "benchOffset" : [
+              -123.20050048828125,
+              -3.20001220703125
+            ],
+            "isExpanded" : false
+          }
+        }
+      },
+      {
+        "reciprocal" : {
+          "_0" : {
+            "module" : {
+              "id" : "FAD61327-F3A3-4610-990C-FB41425FE1E7",
+              "benchPosition" : [
+                -44.896484375,
+                26.392578125
+              ],
+              "benchInteractivity" : "normal",
+              "parameters" : {
+
+              },
+              "colorIndex" : 27,
+              "containerID" : "6FB5BD33-9EF7-4B62-871F-459FB562D715",
+              "name" : "1\/I2",
+              "identifier" : "module.HJYBDSZP",
+              "benchOrdinal" : 14000,
+              "notes" : ""
+            }
+          }
+        }
+      }
+    ]
+  },
+  "identifier" : "5AA69F34-2FAB-4321-B434-6484A205B2E4",
+  "category" : 3,
+  "overview" : "Divides the first value by the second value.",
+  "source" : "factory",
+  "title" : "Divide"
+}

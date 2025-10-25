@@ -1,0 +1,285 @@
+{
+  "graph" : {
+    "ports" : [
+      {
+        "scope" : "output",
+        "moduleID" : "0516CDAA-4565-4160-8BA3-F0AB13D707A3",
+        "id" : "C78ED5EE-60DE-4D88-8DC5-554AA11A39F9",
+        "isTap" : false,
+        "label" : "Out",
+        "identifier" : "output",
+        "payload" : "scalar",
+        "ordinal" : 0
+      },
+      {
+        "scope" : "input",
+        "moduleID" : "C836E498-297F-4F97-82D0-95517D73E28B",
+        "id" : "459A3FBB-85AA-45C8-B408-E59972274B18",
+        "isTap" : false,
+        "label" : "In",
+        "identifier" : "port.ZZVMMWHV",
+        "payload" : "scalar",
+        "ordinal" : 0
+      },
+      {
+        "scope" : "output",
+        "moduleID" : "C836E498-297F-4F97-82D0-95517D73E28B",
+        "id" : "F29132A2-3373-4546-8EC2-D46E6D8A5B54",
+        "isTap" : false,
+        "label" : "In",
+        "identifier" : "port.ZZVMMWHV",
+        "payload" : "scalar",
+        "ordinal" : 0
+      },
+      {
+        "scope" : "input",
+        "moduleID" : "0516CDAA-4565-4160-8BA3-F0AB13D707A3",
+        "id" : "064FD7D5-6B6F-4FD3-8468-8F26CF7214BE",
+        "isTap" : false,
+        "label" : "X2",
+        "identifier" : "input-2",
+        "payload" : "scalar",
+        "connectedPortID" : "36960633-545C-4B4C-AA5F-FD9EBD9A3CB4",
+        "ordinal" : 1000
+      },
+      {
+        "scope" : "output",
+        "moduleID" : "80E031D9-4616-437A-AD5C-140ADD1F05C9",
+        "id" : "B3F884D4-842B-4A07-8909-3442B306B845",
+        "isTap" : false,
+        "label" : "Out",
+        "identifier" : "output",
+        "payload" : "scalar",
+        "ordinal" : 0
+      },
+      {
+        "scope" : "input",
+        "moduleID" : "0516CDAA-4565-4160-8BA3-F0AB13D707A3",
+        "id" : "52C806BE-29D2-4F19-A2BA-8E255B407086",
+        "isTap" : false,
+        "label" : "X1",
+        "identifier" : "input-1",
+        "payload" : "scalar",
+        "connectedPortID" : "B3F884D4-842B-4A07-8909-3442B306B845",
+        "ordinal" : 0
+      },
+      {
+        "scope" : "output",
+        "moduleID" : "E5B69385-CB14-4EBD-B11B-616518004390",
+        "id" : "36960633-545C-4B4C-AA5F-FD9EBD9A3CB4",
+        "isTap" : false,
+        "label" : "Out",
+        "identifier" : "output",
+        "payload" : "scalar",
+        "ordinal" : 0
+      },
+      {
+        "scope" : "input",
+        "moduleID" : "E5B69385-CB14-4EBD-B11B-616518004390",
+        "id" : "DFE73F97-D637-4C21-AF95-12578009C478",
+        "isTap" : false,
+        "label" : "X",
+        "identifier" : "input",
+        "payload" : "scalar",
+        "connectedPortID" : "F29132A2-3373-4546-8EC2-D46E6D8A5B54",
+        "ordinal" : 0
+      },
+      {
+        "scope" : "output",
+        "moduleID" : "3F236BE3-ACFC-4305-8B86-4D14BECFC005",
+        "id" : "66C46808-1639-4193-92EC-37782431D9C8",
+        "isTap" : false,
+        "label" : "Out",
+        "identifier" : "port.SZQOWMFC",
+        "payload" : "scalar",
+        "ordinal" : 0
+      },
+      {
+        "scope" : "input",
+        "moduleID" : "3F236BE3-ACFC-4305-8B86-4D14BECFC005",
+        "id" : "C8782CD0-5157-4028-B780-8CF3978A7605",
+        "isTap" : false,
+        "label" : "Out",
+        "identifier" : "port.SZQOWMFC",
+        "payload" : "scalar",
+        "connectedPortID" : "C78ED5EE-60DE-4D88-8DC5-554AA11A39F9",
+        "ordinal" : 0
+      }
+    ],
+    "detents" : [
+
+    ],
+    "modules" : [
+      {
+        "add" : {
+          "_0" : {
+            "module" : {
+              "name" : "Add",
+              "benchPosition" : [
+                83.78253173828125,
+                9.9183349609375
+              ],
+              "id" : "0516CDAA-4565-4160-8BA3-F0AB13D707A3",
+              "colorIndex" : 27,
+              "identifier" : "module.AXCDBPCW",
+              "benchOrdinal" : 5000,
+              "benchInteractivity" : "normal",
+              "notes" : "",
+              "parameters" : {
+
+              },
+              "containerID" : "F3897CCF-614A-4936-87F5-18BF6A897429"
+            }
+          }
+        }
+      },
+      {
+        "negate" : {
+          "_0" : {
+            "module" : {
+              "name" : "Negate",
+              "colorIndex" : 27,
+              "benchPosition" : [
+                -16.71356201171875,
+                43.5941162109375
+              ],
+              "id" : "E5B69385-CB14-4EBD-B11B-616518004390",
+              "identifier" : "module.ELLGKIVS",
+              "benchOrdinal" : 4000,
+              "benchInteractivity" : "normal",
+              "notes" : "",
+              "parameters" : {
+
+              },
+              "containerID" : "F3897CCF-614A-4936-87F5-18BF6A897429"
+            }
+          }
+        }
+      },
+      {
+        "containerPorts" : {
+          "_0" : {
+            "module" : {
+              "name" : "Inputs",
+              "benchPosition" : [
+                -103.26953125,
+                43.40234375
+              ],
+              "colorIndex" : 29,
+              "id" : "C836E498-297F-4F97-82D0-95517D73E28B",
+              "identifier" : "container.ports.input",
+              "benchOrdinal" : 1000,
+              "benchInteractivity" : "normal",
+              "notes" : "",
+              "parameters" : {
+
+              },
+              "containerID" : "F3897CCF-614A-4936-87F5-18BF6A897429"
+            },
+            "scope" : "input"
+          }
+        }
+      },
+      {
+        "constant" : {
+          "_0" : {
+            "value" : 1,
+            "source" : "custom",
+            "module" : {
+              "name" : "K",
+              "benchPosition" : [
+                -1.3125,
+                -27.203125
+              ],
+              "colorIndex" : 27,
+              "id" : "80E031D9-4616-437A-AD5C-140ADD1F05C9",
+              "identifier" : "module.TBDNQTGZ",
+              "benchOrdinal" : 3000,
+              "benchInteractivity" : "normal",
+              "notes" : "",
+              "parameters" : {
+
+              },
+              "containerID" : "F3897CCF-614A-4936-87F5-18BF6A897429"
+            }
+          }
+        }
+      },
+      {
+        "container" : {
+          "_0" : {
+            "isExpanded" : false,
+            "module" : {
+              "name" : "One Minus",
+              "benchPosition" : [
+                -158.17578125,
+                -217.2421875
+              ],
+              "id" : "F3897CCF-614A-4936-87F5-18BF6A897429",
+              "colorIndex" : 27,
+              "identifier" : "module.WFKSRMLG",
+              "benchOrdinal" : 0,
+              "benchInteractivity" : "normal",
+              "notes" : "",
+              "parameters" : {
+
+              },
+              "containerID" : "DEADBEEF-FEED-FACE-DEED-CAFEBABEFACE"
+            },
+            "benchOffset" : [
+              -103.20050048828125,
+              -52.0003662109375
+            ]
+          }
+        }
+      },
+      {
+        "containerPorts" : {
+          "_0" : {
+            "module" : {
+              "name" : "Outputs",
+              "benchPosition" : [
+                184.53125,
+                7.74609375
+              ],
+              "id" : "3F236BE3-ACFC-4305-8B86-4D14BECFC005",
+              "colorIndex" : 29,
+              "identifier" : "container.ports.output",
+              "benchOrdinal" : 0,
+              "benchInteractivity" : "normal",
+              "notes" : "",
+              "parameters" : {
+
+              },
+              "containerID" : "F3897CCF-614A-4936-87F5-18BF6A897429"
+            },
+            "scope" : "output"
+          }
+        }
+      }
+    ],
+    "rootModuleIDs" : [
+      "F3897CCF-614A-4936-87F5-18BF6A897429"
+    ]
+  },
+  "author" : "AudioBench",
+  "keywords" : [
+      "invert",
+      "complement",
+      "reverse",
+      "subtraction",
+      "modulation",
+      "control",
+      "math",
+      "blend",
+      "fade"
+  ],
+  "overview" : "Outputs the inverse of the input value by subtracting it from one.",
+  "source" : "factory",
+  "details" : "The One Minus module performs the simple operation 1 – x, producing a complementary value. Often used for crossfades, envelopes, or any situation requiring an inverted relationship between two parameters.",
+  "identifier" : "13CD8BD6-0878-4B01-9664-AE846FE69C46",
+  "version" : "1.0.0",
+  "title" : "One Minus",
+  "isDeleted" : false,
+  "category" : 3
+}
